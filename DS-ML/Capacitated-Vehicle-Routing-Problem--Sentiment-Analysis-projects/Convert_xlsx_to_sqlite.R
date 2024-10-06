@@ -1,0 +1,10 @@
+library(xlsx)
+library(RSQLite)
+
+db <- dbConnect(SQLite(),dbname='BTP_data.sqlite')
+data <- read.xlsx("distmatrix1.xlsx",1)
+dbWriteTable(db,'Distance_matrix1',data,overwrite=TRUE)
+data <- read.xlsx("timematrix.xlsx",1)
+dbWriteTable(db,'Time(sec)_matrix',data,overwrite=TRUE)
+data <- read.xlsx("statusmatrix.xlsx",1)
+dbWriteTable(db,'Status_matrix',data,overwrite=TRUE)

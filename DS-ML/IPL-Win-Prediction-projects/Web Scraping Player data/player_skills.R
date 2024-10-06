@@ -1,0 +1,26 @@
+Sys.setenv(http_proxy="http://@172.16.2.30:8080")
+Sys.setenv(https_proxy="http://@172.16.2.30:8080")
+setwd("C:/Users/subashnirmal/Desktop/subash/studies/AMSM2/project/")
+library(rvest)
+
+v_data <- read.csv("playerweb_values1.csv")
+p_name=c()
+p_DOB=c()
+p_age=c()
+p_bat=c()
+p_ball=c()
+p_values <- as.numeric(unlist(v_data[3]))
+for (i in 1:length(p_values)){
+  url <- paste("http://www.howstat.com/cricket/Statistics/Players/PlayerOverview.asp?PlayerID=",p_values[i],sep = "")
+  web <- read_html(url)
+  player_table <- html_text(html_nodes(web,'.FieldName+ td'))
+  player_name <- gsub(" ","_",gsub("\t","",gsub("[\r\n]","",player_table)))
+  p_name <- c(p_name,player_name[1])
+  p_DOB <- c(p_DOB,player_name[2])
+  p_age <- c(p_age,gsub("_.*","",player_name[3]))
+  p_bat <- c(p_bat,player_name[4])
+  p_ball <- c(p_ball,player_name[5])
+}  
+p_data <- data.frame(PlayerName=p_name, DateofBirth=p_DOB, Age=p_age, BatSkill=p_bat, BallSkill=p_ball)
+
+write.csv(p_data,'PlayerSkills.csv')
