@@ -11,7 +11,7 @@ I write programs that works (most of the time) and breaks elegantly (when it doe
 <br />
 ⚡ Fun fact: I’m a big fan of solving complex puzzles—whether it's debugging code or tackling a challenging dataset, I’m always up for it!
 <br />
-💬 Feel free to reach out if you want to chat about data engineering, **DS/ML**, or tech in general! :D
+💬 Feel free to reach out if you want to chat about LLM, DS/ML, or tech in general! :D
 
 <h2>🛠Tech Stack</h2>
 
