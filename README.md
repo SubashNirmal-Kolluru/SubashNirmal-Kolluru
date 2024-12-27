@@ -23,14 +23,20 @@ Languages and Platforms
 ![C++](https://img.shields.io/badge/C++-%23B0C0B0.svg?style=for-the-badge&logo=cplusplus&logoColor=blue)
 ![R](https://img.shields.io/badge/R-%23F6FFFF.svg?style=for-the-badge&logo=r&logoColor=blue)
 ![Ruby](https://img.shields.io/badge/Ruby-%23B0B0B0.svg?style=for-the-badge&logo=ruby&logoColor=red)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 Frameworks and Libraries  
-![Ember](https://img.shields.io/badge/ember-1C1E24?style=for-the-badge&logo=ember.js&logoColor=#D04A37)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
-
-
-
-
-
-
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=blue)
+![Keras](https://img.shields.io/badge/Keras-%23D02000.svg?style=for-the-badge&logo=keras&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-%23152458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Numpy](https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%230673A5.svg?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Tensorflow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-%23FFAE00.svg?style=for-the-badge&logo=huggingface&logoColor=white)
+![Sinatra](https://img.shields.io/badge/Sinatra-%23FF0000.svg?style=for-the-badge&logo=rubysinatra&logoColor=white)
+![Sidekiq](https://img.shields.io/badge/Sidekiq-%23DC382D.svg?style=for-the-badge&logo=sidekiq&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/JIRA-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=whitee)
+![Confluence](https://img.shields.io/badge/Confluence-%232671E5.svg?style=for-the-badge&logo=confluence&logoColor=white)
+![GIT](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
