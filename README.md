@@ -6,11 +6,12 @@
 
 <h2>About me</h2>
 
-I am a Data Engineer currently working as a **Software Engineer 2** at **CSAA Insurance Group**. I enjoy optimizing data pipelines, automating workflows, and creating scalable solutions with technologies like **Python**, **SQL**, and **Snowflake**. I’m also passionate about **Data Science** and **Machine Learning**, and I’m always exploring ways to integrate them into my work to unlock deeper insights. 
+I write programs that works (most of the time) and breaks elegantly (when it doesn’t). Currently making magic happen at **CSAA Insurance Group** as a **Software Engineer 2**. I’m also passionate about **Data Science** and **Machine Learning**, always looking for ways to sneak them into my work to unlock deeper insights (and impress my code reviewers).
+
 <br />
 ⚡ Fun fact: I’m a big fan of solving complex puzzles—whether it's debugging code or tackling a challenging dataset, I’m always up for it!
 <br />
-💬 Feel free to reach out if you want to chat about data engineering, **DS/ML**, or tech in general! :D
+💬 Feel free to reach out if you want to chat about LLM, DS/ML, or tech in general! :D
 
 <h2>🛠Tech Stack</h2>
 
