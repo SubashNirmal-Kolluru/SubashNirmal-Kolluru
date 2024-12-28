@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@sanity/client": "^6.1.2",
+    "@sanity/image-url": "^1.0.2",
+    "framer-motion": "^6.5.1",
+    "get-youtube-id": "^1.0.1",
+    "node-sass": "^9.0.0",
+    "react-icons": "^4.8.0",
+    "react-youtube": "^9.0.3"
+  }
+}
