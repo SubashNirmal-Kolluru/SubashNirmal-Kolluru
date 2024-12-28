@@ -1,8 +1,12 @@
 <h2 align="center">Hi, I'm Subash Nirmal Kolluru  <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" height="30" width="30"></h2>
  
-[![Linkeidn]](https://www.linkedin.com/in/subash-nirmal-kolluru/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subash-nirmal-kolluru/)
 
-<h2 align="center"><img src="https://user-images.githubusercontent.com/39955420/147578199-56632b69-b3e8-4d9f-97e2-f046a1c2cba0.gif"></h2>
+## Table of Contents  
+
+1. [About me](#about-me) 
+2. [Tech Stack](#tech-stack)  
+
 
 <h2>About me</h2>
 
@@ -41,3 +45,6 @@ Frameworks and Libraries
 ![Jira](https://img.shields.io/badge/JIRA-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=whitee)
 ![Confluence](https://img.shields.io/badge/Confluence-%232671E5.svg?style=for-the-badge&logo=confluence&logoColor=white)
 ![GIT](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+
+<h2 align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDc5Z2R3Z3k5aGQ5ZWpjd3lmcHV0ejh5ZnJzaDljN284dGloa3BwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kq78tSGO0zVLHEexb8/giphy.gif"></h2>
