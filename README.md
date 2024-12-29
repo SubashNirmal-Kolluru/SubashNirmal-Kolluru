@@ -7,7 +7,9 @@
 ## Table of Contents  
 
 1. [About me](#about-me) 
-2. [Tech Stack](#tech-stack)  
+2. [Tech Stack](#tech-stack) 
+3. [DS/ML Projects](#ds/ml-projects)  
+4. [SDE Projects](#sde-projects)   
 
 
 <h2>About me</h2>
