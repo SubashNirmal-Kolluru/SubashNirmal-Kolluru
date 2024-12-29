@@ -8,7 +8,7 @@
 
 1. [About me](#about-me) 
 2. [Tech Stack](#tech-stack) 
-3. [DS/ML Projects](#ds/ml-projects)  
+3. [DS/ML Projects](#dsml-projects)  
 4. [SDE Projects](#sde-projects)   
 
 
