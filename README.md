@@ -82,7 +82,7 @@ Frameworks and Libraries
 | **[StrikeForce-FPS_Mission](./SDE/StrikeForce-FPS_Mission/)**      | This project is a **First-Person Shooter (FPS)** game, featuring engaging missions, player mechanics, and immersive environments, developed using **Unity** and **C#**.       | ![Unity](https://img.shields.io/badge/Unity-%232F2F2F.svg?style=for-the-badge&logo=unity&logoColor=white) <br> ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)|
 
 
-## 📚 Publications
+## Publications
 - [**Early Detection of Equipment Failure Using One-Class Support Vector Machine**](https://index.ieomsociety.org/index.cfm/article/view/ID/1989)  
   *Explores anomaly detection using one-class SVM.*
 
