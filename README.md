@@ -9,7 +9,8 @@
 1. [About me](#about-me) 
 2. [Tech Stack](#tech-stack) 
 3. [DS/ML Projects](#dsml-projects)  
-4. [SDE Projects](#sde-projects)   
+4. [SDE Projects](#sde-projects)
+5. [Publications](#publications)   
 
 
 <h2>About me</h2>
@@ -79,3 +80,11 @@ Frameworks and Libraries
 | **[Portfolio-Website](./SDE/Portfolio-Website/)**      | A personal **portfolio website** to showcase skills, projects, and experience, built with **React JS**.           | ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=yellow) <br> ![React](https://img.shields.io/badge/React-%2300D8FF.svg?style=for-the-badge&logo=react&logoColor=white) <br> ![Sanity](https://img.shields.io/badge/Sanity-%23406F8C.svg?style=for-the-badge&logo=sanity&logoColor=white)  |
 | **[SimpleDB-DatabaseEngineImplementation](./SDE/SimpleDB-DatabaseEngineImplementation/)**      | Implemented a simple **Database Engine** that supports basic **CRUD operations** (Create, Read, Update, Delete) and is designed to manage records efficiently in a structured format.                                             | ![Java](https://img.shields.io/badge/Java-%23F7A800.svg?style=for-the-badge&logo=java&logoColor=white) <br> ![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)    |
 | **[StrikeForce-FPS_Mission](./SDE/StrikeForce-FPS_Mission/)**      | This project is a **First-Person Shooter (FPS)** game, featuring engaging missions, player mechanics, and immersive environments, developed using **Unity** and **C#**.       | ![Unity](https://img.shields.io/badge/Unity-%232F2F2F.svg?style=for-the-badge&logo=unity&logoColor=white) <br> ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)|
+
+
+## 📚 Publications
+- [Early Detection of Equipment Failure Using One-Class Support Vector Machine]([https://example.com/ocsvm-paper](https://index.ieomsociety.org/index.cfm/article/view/ID/1989))  
+  *Explores anomaly detection using one-class SVM.*
+
+- [Hidden Markov Models to Detect Early Equipment Failure]([https://example.com/hmm-paper](https://index.ieomsociety.org/index.cfm/article/view/ID/1983))  
+  *Applies HMMs to time-series sensor data for early fault detection.*
