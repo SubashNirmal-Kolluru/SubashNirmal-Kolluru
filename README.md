@@ -83,8 +83,8 @@ Frameworks and Libraries
 
 
 ## 📚 Publications
-- [Early Detection of Equipment Failure Using One-Class Support Vector Machine]([https://example.com/ocsvm-paper](https://index.ieomsociety.org/index.cfm/article/view/ID/1989))  
+- [**Early Detection of Equipment Failure Using One-Class Support Vector Machine**]([https://index.ieomsociety.org/index.cfm/article/view/ID/1989])  
   *Explores anomaly detection using one-class SVM.*
 
-- [Hidden Markov Models to Detect Early Equipment Failure]([https://example.com/hmm-paper](https://index.ieomsociety.org/index.cfm/article/view/ID/1983))  
+- [**Hidden Markov Models to Detect Early Equipment Failure**](https://index.ieomsociety.org/index.cfm/article/view/ID/1983])  
   *Applies HMMs to time-series sensor data for early fault detection.*
