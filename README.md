@@ -9,11 +9,11 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/subash-nirmal-kolluru/">LinkedIn</a>
   &nbsp;·&nbsp;
-  <a href="https://subashnirmalportfolio.netlify.app/">Portfolio</a>
+  <a href="https://subash-nirmal-kolluru.vercel.app/">Portfolio</a>
   &nbsp;·&nbsp;
   <a href="mailto:subash.nirmal.kolluru@gmail.com">Email</a>
   &nbsp;·&nbsp;
-  <a href="https://subashnirmalportfolio.netlify.app/">Resume</a>
+  <a href="https://subash-nirmal-kolluru.vercel.app/">Resume</a>
 </p>
 
 <br>
@@ -61,7 +61,7 @@ flowchart LR
 -->
 
 <p align="center">
-  <a href="https://subashnirmalportfolio.netlify.app/">Demo</a>
+  <a href="https://subash-nirmal-kolluru.vercel.app/">Demo</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/SubashNirmal-Kolluru">Repository</a>
 </p>

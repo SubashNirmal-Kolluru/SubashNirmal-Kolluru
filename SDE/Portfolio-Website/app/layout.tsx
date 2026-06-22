@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'Portfolio',
   ],
   authors: [{ name: 'Subash Nirmal Kolluru' }],
-  metadataBase: new URL('https://subashnirmal.vercel.app'),
+  metadataBase: new URL('https://subash-nirmal-kolluru.vercel.app'),
   openGraph: {
     title: 'Subash Nirmal Kolluru | Data Engineer | AWS | Snowflake',
     description:
