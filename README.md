@@ -40,11 +40,53 @@
 
 ## 🔭 Current Focus
 
-Building production-scale data platforms at CSAA Insurance Group.
+*Designing and operating analytics-ready data platforms that process terabytes of data daily across AWS and Snowflake — at CSAA Insurance Group.*
 
-`Snowflake Data Engineering` &nbsp; `AWS Glue & EMR Serverless` &nbsp; `CDC Pipelines`
+<br>
 
-`Data Modeling` &nbsp; `Metadata-Driven Automation` &nbsp; `Analytics Engineering` &nbsp; `AI-Augmented Data Platforms`
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+
+**☁️ &nbsp;Data Platforms**
+
+Building scalable, analytics-ready platforms using Snowflake, AWS Glue, and EMR Serverless.
+
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![AWS Glue](https://img.shields.io/badge/AWS%20Glue-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![EMR Serverless](https://img.shields.io/badge/EMR%20Serverless-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+</td>
+<td width="33%" valign="top">
+
+**🔄 &nbsp;Data Architecture**
+
+Designing CDC ingestion frameworks, scalable data models, and analytics engineering solutions.
+
+![CDC Pipelines](https://img.shields.io/badge/CDC%20Pipelines-0891B2?style=flat-square&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-0891B2?style=flat-square&logoColor=white)
+![Analytics Engineering](https://img.shields.io/badge/Analytics%20Engineering-0891B2?style=flat-square&logoColor=white)
+
+</td>
+<td width="34%" valign="top">
+
+**⚡ &nbsp;Platform Automation**
+
+Reducing manual effort through metadata-driven frameworks and AI-assisted engineering workflows.
+
+![Metadata Automation](https://img.shields.io/badge/Metadata%20Automation-FF9900?style=flat-square&logoColor=white)
+![AI-Augmented DE](https://img.shields.io/badge/AI--Augmented%20DE-FF9900?style=flat-square&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+**Current Initiatives &nbsp;→**&nbsp;
+![Snowflake Optimization](https://img.shields.io/badge/Snowflake%20Optimization-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![Metadata Automation](https://img.shields.io/badge/Metadata%20Automation-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![AI-Assisted Data Engineering](https://img.shields.io/badge/AI--Assisted%20Data%20Engineering-7B42BC?style=flat-square&logo=openai&logoColor=white)
 
 <br>
 
@@ -128,15 +170,48 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 
 <p align="center">··············································································</p>
 
-## 🛠️ Technical Expertise
+## 🛠️ Engineering Capabilities
 
-**Data Engineering** &nbsp;&nbsp; `Snowflake` &nbsp; `AWS` &nbsp; `PySpark` &nbsp; `Glue` &nbsp; `EMR` &nbsp; `Airflow`
+**❄️ &nbsp;Data Platforms**
 
-**Cloud & Infra** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Terraform` &nbsp; `CI/CD` &nbsp; `Lambda` &nbsp; `S3`
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![AWS Glue](https://img.shields.io/badge/AWS%20Glue-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![EMR Serverless](https://img.shields.io/badge/EMR%20Serverless-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 
-**Product Dev** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Flutter` &nbsp; `React` &nbsp; `REST APIs`
+**🏗️ &nbsp;Data Architecture**
 
-**AI / ML** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Scikit-Learn` &nbsp; `SageMaker` &nbsp; `LLMs`
+![CDC Pipelines](https://img.shields.io/badge/CDC%20Pipelines-29B5E8?style=flat-square&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-29B5E8?style=flat-square&logoColor=white)
+![Metadata Automation](https://img.shields.io/badge/Metadata%20Automation-29B5E8?style=flat-square&logoColor=white)
+![S3 Data Lake](https://img.shields.io/badge/S3%20Data%20Lake-FF9900?style=flat-square&logo=amazons3&logoColor=white)
+![Analytics Engineering](https://img.shields.io/badge/Analytics%20Engineering-29B5E8?style=flat-square&logoColor=white)
+
+**☁️ &nbsp;Cloud Infrastructure**
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![IAM & Security](https://img.shields.io/badge/IAM%20%26%20Security-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+**📱 &nbsp;Product Development**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-4CAF50?style=flat-square&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+**🤖 &nbsp;AI / ML**
+
+![SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white)
+![Anomaly Detection](https://img.shields.io/badge/Anomaly%20Detection-7B42BC?style=flat-square&logoColor=white)
+![Time Series](https://img.shields.io/badge/Time%20Series-7B42BC?style=flat-square&logoColor=white)
 
 <br>
 
