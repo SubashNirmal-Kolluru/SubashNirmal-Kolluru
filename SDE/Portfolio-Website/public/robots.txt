@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://subashnirmal.vercel.app/sitemap.xml
