@@ -7,15 +7,15 @@
 <p align="center">Software Engineer 2 &nbsp;·&nbsp; CSAA Insurance Group</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/subash-nirmal-kolluru/">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://subash-nirmal-kolluru.vercel.app/">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:subash.nirmal.kolluru@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/subash-nirmal-kolluru/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  &nbsp;
+  <a href="https://subash-nirmal-kolluru.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  &nbsp;
+  <a href="mailto:subash.nirmal.kolluru@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 <p align="center">
-  <a href="https://subash-nirmal-kolluru.vercel.app/"><b>&nbsp;&nbsp;↓ &nbsp; Download Resume &nbsp;&nbsp;</b></a>
+  <a href="https://subash-nirmal-kolluru.vercel.app/"><img src="https://img.shields.io/badge/⬇%20Download%20Resume-FF9900?style=for-the-badge&logoColor=white" alt="Download Resume"></a>
 </p>
 
 <br>
@@ -30,8 +30,9 @@
 
 <br>
 
-| Sources | → | AWS Glue | → | EMR Serverless | → | S3 Data Lake | → | Snowflake | → | dbt | → | Analytics & BI |
-|:-------:|:-:|:--------:|:-:|:--------------:|:-:|:------------:|:-:|:---------:|:-:|:---:|:-:|:--------------:|
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SubashNirmal-Kolluru/SubashNirmal-Kolluru/SubashNirmalKolluru/assets/data-pipeline.svg" alt="Data Pipeline: Sources → AWS Glue → EMR Serverless → S3 Data Lake → Snowflake → dbt → Analytics & BI" width="100%">
+</p>
 
 <br>
 
@@ -64,9 +65,9 @@ Building production-scale data platforms at CSAA Insurance Group.
 | ✓ | ✓ | ✓ | ✓ |
 
 <p align="center">
-  <a href="https://subash-nirmal-kolluru.vercel.app/"><strong>View Demo →</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/SubashNirmal-Kolluru">Repository →</a>
+  <a href="https://subash-nirmal-kolluru.vercel.app/"><img src="https://img.shields.io/badge/View%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="View Demo"></a>
+  &nbsp;
+  <a href="https://github.com/SubashNirmal-Kolluru"><img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"></a>
 </p>
 
 <br>
@@ -83,7 +84,7 @@ Production-scale AWS and Snowflake architectures for enterprise data platforms.
 
 *Coming soon: AWS Architectures · Snowflake Patterns · CDC Pipelines · Terraform Modules*
 
-<p><a href="./Data-Engineering-Portfolio/">View Portfolio →</a></p>
+<p><a href="./Data-Engineering-Portfolio/"><img src="https://img.shields.io/badge/View%20Portfolio-29B5E8?style=flat-square&logoColor=white" alt="View Portfolio"></a></p>
 
 <br>
 
@@ -92,9 +93,9 @@ Production-scale AWS and Snowflake architectures for enterprise data platforms.
 Published anomaly detection research on early equipment failure prediction using OCSVM and Hidden Markov Models.
 
 <p>
-  <a href="https://index.ieomsociety.org/index.cfm/article/view/ID/1989">Read Paper (OCSVM) →</a>
-  &nbsp;·&nbsp;
-  <a href="https://index.ieomsociety.org/index.cfm/article/view/ID/1983">Read Paper (HMM) →</a>
+  <a href="https://index.ieomsociety.org/index.cfm/article/view/ID/1989"><img src="https://img.shields.io/badge/Paper%20(OCSVM)-4CAF50?style=flat-square&logo=readthedocs&logoColor=white" alt="Read OCSVM Paper"></a>
+  &nbsp;
+  <a href="https://index.ieomsociety.org/index.cfm/article/view/ID/1983"><img src="https://img.shields.io/badge/Paper%20(HMM)-4CAF50?style=flat-square&logo=readthedocs&logoColor=white" alt="Read HMM Paper"></a>
 </p>
 
 <br>
@@ -103,7 +104,7 @@ Published anomaly detection research on early equipment failure prediction using
 
 Database engine built from scratch — query processing, storage management, and full CRUD operations.
 
-<p><a href="./SDE/SimpleDB-DatabaseEngineImplementation/">View Project →</a></p>
+<p><a href="./SDE/SimpleDB-DatabaseEngineImplementation/"><img src="https://img.shields.io/badge/View%20Project-334155?style=flat-square&logo=github&logoColor=white" alt="View Project"></a></p>
 
 <br>
 
@@ -111,7 +112,7 @@ Database engine built from scratch — query processing, storage management, and
 
 VR FPS training game with locomotion, health systems, and AI-driven enemies.
 
-<p><a href="https://www.youtube.com/watch?v=Ic0E412q_Ms">Watch Gameplay →</a></p>
+<p><a href="https://www.youtube.com/watch?v=Ic0E412q_Ms"><img src="https://img.shields.io/badge/Watch%20Gameplay-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Watch Gameplay"></a></p>
 
 <br>
 

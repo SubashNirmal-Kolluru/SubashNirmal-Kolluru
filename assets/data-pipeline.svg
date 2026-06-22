@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 120" width="960" height="120">
+  <defs>
+    <linearGradient id="nodeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1825;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="snowflakeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#29b5e8;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#1a8fc1;stop-opacity:0.15" />
+    </linearGradient>
+    <linearGradient id="awsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9900;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#e68a00;stop-opacity:0.15" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="120" rx="12" fill="#0d1825"/>
+
+  <!-- Arrow lines -->
+  <line x1="112" y1="60" x2="148" y2="60" stroke="#334155" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="248" y1="60" x2="284" y2="60" stroke="#334155" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="384" y1="60" x2="420" y2="60" stroke="#334155" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="520" y1="60" x2="556" y2="60" stroke="#334155" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="656" y1="60" x2="692" y2="60" stroke="#334155" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="772" y1="60" x2="808" y2="60" stroke="#334155" stroke-width="2" stroke-dasharray="4,2"/>
+
+  <!-- Arrow heads -->
+  <polygon points="148,55 148,65 158,60" fill="#334155"/>
+  <polygon points="284,55 284,65 294,60" fill="#334155"/>
+  <polygon points="420,55 420,65 430,60" fill="#334155"/>
+  <polygon points="556,55 556,65 566,60" fill="#334155"/>
+  <polygon points="692,55 692,65 702,60" fill="#334155"/>
+  <polygon points="808,55 808,65 818,60" fill="#334155"/>
+
+  <!-- Node 1: Sources -->
+  <rect x="8" y="32" width="104" height="56" rx="8" fill="url(#nodeBg)" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="54" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#64748b" letter-spacing="1">INGESTION</text>
+  <text x="60" y="72" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Sources</text>
+
+  <!-- Node 2: AWS Glue (AWS orange) -->
+  <rect x="158" y="32" width="104" height="56" rx="8" fill="url(#awsBg)" stroke="#ff990055" stroke-width="1.5"/>
+  <text x="210" y="54" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#ff9900" letter-spacing="1">AWS</text>
+  <text x="210" y="72" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Glue</text>
+
+  <!-- Node 3: EMR Serverless (AWS orange) -->
+  <rect x="294" y="32" width="104" height="56" rx="8" fill="url(#awsBg)" stroke="#ff990055" stroke-width="1.5"/>
+  <text x="346" y="54" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#ff9900" letter-spacing="1">AWS</text>
+  <text x="346" y="72" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">EMR Serverless</text>
+
+  <!-- Node 4: S3 Data Lake (AWS orange) -->
+  <rect x="430" y="32" width="104" height="56" rx="8" fill="url(#awsBg)" stroke="#ff990055" stroke-width="1.5"/>
+  <text x="482" y="54" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#ff9900" letter-spacing="1">AWS</text>
+  <text x="482" y="72" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">S3 Data Lake</text>
+
+  <!-- Node 5: Snowflake (blue) -->
+  <rect x="566" y="32" width="104" height="56" rx="8" fill="url(#snowflakeBg)" stroke="#29b5e855" stroke-width="1.5"/>
+  <text x="618" y="54" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#29b5e8" letter-spacing="1">WAREHOUSE</text>
+  <text x="618" y="72" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Snowflake</text>
+
+  <!-- Node 6: dbt (Snowflake blue) -->
+  <rect x="702" y="32" width="88" height="56" rx="8" fill="url(#snowflakeBg)" stroke="#29b5e855" stroke-width="1.5"/>
+  <text x="746" y="54" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#29b5e8" letter-spacing="1">TRANSFORM</text>
+  <text x="746" y="72" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">dbt</text>
+
+  <!-- Node 7: Analytics & BI -->
+  <rect x="820" y="32" width="132" height="56" rx="8" fill="url(#nodeBg)" stroke="#29b5e855" stroke-width="1.5" filter="url(#glow)"/>
+  <text x="886" y="54" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#29b5e8" letter-spacing="1">OUTPUT</text>
+  <text x="886" y="72" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Analytics &amp; BI</text>
+</svg>
