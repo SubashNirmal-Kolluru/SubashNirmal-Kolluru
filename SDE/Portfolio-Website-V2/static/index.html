@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subash Nirmal Kolluru | Software Engineer & Data Engineer</title>
+  <meta name="description" content="Portfolio of Subash Nirmal Kolluru — Software Engineer 2 and Data Engineer building scalable data platforms, AI-powered applications, and cloud-native solutions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: '#0a0a0f',
+            surface: '#12121a',
+            'surface-light': '#1a1a25',
+            primary: '#8b5cf6',
+            'primary-light': '#a78bfa',
+            accent: '#22d3ee',
+            muted: '#6b7280',
+            'muted-light': '#9ca3af',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-background text-white font-sans antialiased">
+  <nav class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="#" class="text-lg font-semibold tracking-tight text-white">SNK</a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#featured" class="text-sm text-muted-light hover:text-white transition-colors">Work</a>
+          <a href="#journey" class="text-sm text-muted-light hover:text-white transition-colors">Journey</a>
+          <a href="#publications" class="text-sm text-muted-light hover:text-white transition-colors">Research</a>
+          <a href="#expertise" class="text-sm text-muted-light hover:text-white transition-colors">Expertise</a>
+          <a href="#archive" class="text-sm text-muted-light hover:text-white transition-colors">Archive</a>
+          <a href="#contact" class="text-sm px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors">Contact</a>
+        </div>
+        <button id="menu-btn" class="md:hidden p-2 text-white" aria-label="Open menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden glass border-t border-white/5">
+      <div class="px-4 py-4 space-y-3">
+        <a href="#featured" class="block text-base text-muted-light hover:text-white transition-colors">Work</a>
+        <a href="#journey" class="block text-base text-muted-light hover:text-white transition-colors">Journey</a>
+        <a href="#publications" class="block text-base text-muted-light hover:text-white transition-colors">Research</a>
+        <a href="#expertise" class="block text-base text-muted-light hover:text-white transition-colors">Expertise</a>
+        <a href="#archive" class="block text-base text-muted-light hover:text-white transition-colors">Archive</a>
+        <a href="#contact" class="block text-base text-white">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-20">
+      <div class="absolute inset-0 -z-10">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/10 gradient-animate"></div>
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[128px] float"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/10 rounded-full blur-[96px] float" style="animation-delay: -3s;"></div>
+      </div>
+      <div class="max-w-5xl mx-auto text-center">
+        <p class="text-accent text-sm md:text-base font-medium tracking-wide uppercase mb-4">Software Engineer 2 | Data Engineer</p>
+        <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6">Subash Nirmal <span class="gradient-text">Kolluru</span></h1>
+        <p class="text-lg md:text-xl text-muted-light max-w-2xl mx-auto mb-10 leading-relaxed">Building scalable data platforms, AI-powered applications, and cloud-native solutions.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/resume.pdf" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-background font-semibold hover:bg-white/90 transition-colors">Resume</a>
+          <a href="https://github.com/SubashNirmal-Kolluru" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass text-white font-medium hover:bg-surface-light transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/subash-nirmal-kolluru/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass text-white font-medium hover:bg-surface-light transition-colors">LinkedIn</a>
+          <a href="#carmasure" class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass text-white font-medium hover:bg-surface-light transition-colors">CarmaSure Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact -->
+    <section id="impact" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-surface/30">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent text-sm font-medium uppercase tracking-wide mb-3">Engineering Impact</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 md:mb-16">Metrics that matter</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+          <div class="glass rounded-2xl p-6 md:p-8 text-center"><div class="text-4xl md:text-5xl font-bold gradient-text mb-2"><span class="counter" data-target="3" data-suffix="TB+">0</span></div><p class="text-muted-light text-sm md:text-base">Data Processed Daily</p></div>
+          <div class="glass rounded-2xl p-6 md:p-8 text-center"><div class="text-4xl md:text-5xl font-bold gradient-text mb-2"><span class="counter" data-target="80" data-suffix="%">0</span></div><p class="text-muted-light text-sm md:text-base">Reduction in Processing Time</p></div>
+          <div class="glass rounded-2xl p-6 md:p-8 text-center"><div class="text-4xl md:text-5xl font-bold gradient-text mb-2"><span class="counter" data-target="40" data-suffix="%">0</span></div><p class="text-muted-light text-sm md:text-base">Automation Improvement</p></div>
+          <div class="glass rounded-2xl p-6 md:p-8 text-center"><div class="text-4xl md:text-5xl font-bold gradient-text mb-2"><span class="counter" data-target="2">0</span></div><p class="text-muted-light text-sm md:text-base">Published Research Papers</p></div>
+          <div class="glass rounded-2xl p-6 md:p-8 text-center"><div class="text-4xl md:text-5xl font-bold gradient-text mb-2"><span class="counter" data-target="10" data-suffix="+">0</span></div><p class="text-muted-light text-sm md:text-base">End-to-End Projects</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <section id="featured" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent text-sm font-medium uppercase tracking-wide mb-3">Featured Work</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 md:mb-16">Projects worth highlighting</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <!-- Journey -->
+    <section id="journey" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-surface/30">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent text-sm font-medium uppercase tracking-wide mb-3">Engineering Journey</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 md:mb-16">From research to product</h2>
+        <div class="relative" id="journey-timeline"></div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent text-sm font-medium uppercase tracking-wide mb-3">Publications</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 md:mb-16">Research contributions</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6" id="publications-grid"></div>
+      </div>
+    </section>
+
+    <!-- Expertise -->
+    <section id="expertise" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-surface/30">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent text-sm font-medium uppercase tracking-wide mb-3">Technical Expertise</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 md:mb-16">Tools and technologies</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6" id="expertise-grid"></div>
+      </div>
+    </section>
+
+    <!-- Archive -->
+    <section id="archive" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent text-sm font-medium uppercase tracking-wide mb-3">Archive</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 md:mb-16">Earlier projects</h2>
+        <div class="space-y-3" id="archive-accordion"></div>
+      </div>
+    </section>
+
+    <!-- Future -->
+    <section id="future" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-surface/30">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent text-sm font-medium uppercase tracking-wide mb-3">Coming Soon</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 md:mb-16">Future enhancements</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6" id="future-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="relative py-16 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="text-center md:text-left">
+          <h3 class="text-lg font-semibold text-white">Subash Nirmal Kolluru</h3>
+          <p class="text-sm text-muted mt-1">Software Engineer 2 | Data Engineer</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="https://github.com/SubashNirmal-Kolluru" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full glass text-muted-light hover:text-white hover:bg-surface-light transition-colors" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+          <a href="https://www.linkedin.com/in/subash-nirmal-kolluru/" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full glass text-muted-light hover:text-white hover:bg-surface-light transition-colors" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+          <a href="mailto:subash.nirmal.kolluru@gmail.com" class="p-2 rounded-full glass text-muted-light hover:text-white hover:bg-surface-light transition-colors" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-white/5 text-center text-sm text-muted">© 2026 Subash Nirmal Kolluru. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
