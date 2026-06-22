@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="960" height="340">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1825;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="activeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#29b5e8;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#1a8fc1;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="340" rx="12" fill="#0d1825"/>
+
+  <!-- Vertical spine line -->
+  <line x1="480" y1="20" x2="480" y2="320" stroke="#1e3a4a" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- ── Node 1: 2018 Research ── -->
+  <!-- Dot -->
+  <circle cx="480" cy="40" r="6" fill="#334155" stroke="#475569" stroke-width="1.5"/>
+  <!-- Card -->
+  <rect x="290" y="22" width="160" height="36" rx="6" fill="url(#cardBg)" stroke="#334155" stroke-width="1"/>
+  <text x="370" y="36" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#64748b" letter-spacing="0.5">2018</text>
+  <text x="370" y="51" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Research</text>
+
+  <!-- ── Node 2: 2019-2021 ML ── -->
+  <circle cx="480" cy="98" r="6" fill="#334155" stroke="#475569" stroke-width="1.5"/>
+  <rect x="510" y="80" width="240" height="36" rx="6" fill="url(#cardBg)" stroke="#334155" stroke-width="1"/>
+  <text x="630" y="94" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#64748b" letter-spacing="0.5">2019 – 2021</text>
+  <text x="630" y="109" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Machine Learning &amp; Analytics</text>
+
+  <!-- ── Node 3: 2022-2023 Grad ── -->
+  <circle cx="480" cy="156" r="6" fill="#334155" stroke="#475569" stroke-width="1.5"/>
+  <rect x="210" y="138" width="240" height="36" rx="6" fill="url(#cardBg)" stroke="#334155" stroke-width="1"/>
+  <text x="330" y="152" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#64748b" letter-spacing="0.5">2022 – 2023</text>
+  <text x="330" y="167" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">MS Computer Science · UT Dallas</text>
+
+  <!-- ── Node 4: 2023-2024 SWE ── -->
+  <circle cx="480" cy="214" r="6" fill="#334155" stroke="#475569" stroke-width="1.5"/>
+  <rect x="510" y="196" width="230" height="36" rx="6" fill="url(#cardBg)" stroke="#334155" stroke-width="1"/>
+  <text x="625" y="210" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#64748b" letter-spacing="0.5">2023 – 2024</text>
+  <text x="625" y="225" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Software Engineering &amp; Databases</text>
+
+  <!-- ── Node 5: 2024-Present CSAA (highlighted) ── -->
+  <circle cx="480" cy="272" r="8" fill="#29b5e8" stroke="#29b5e8" stroke-width="2"/>
+  <rect x="186" y="252" width="264" height="40" rx="6" fill="url(#activeBg)" stroke="#29b5e8" stroke-width="1.5"/>
+  <text x="318" y="267" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#29b5e8" letter-spacing="0.5">2024 – PRESENT</text>
+  <text x="318" y="284" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">Cloud Data Engineering · CSAA</text>
+
+  <!-- ── Node 6: 2025 Product Dev ── -->
+  <circle cx="480" cy="316" r="6" fill="#ff9900" stroke="#ff9900" stroke-width="1.5"/>
+  <rect x="510" y="298" width="200" height="36" rx="6" fill="#1a1200" stroke="#ff990055" stroke-width="1"/>
+  <text x="610" y="312" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#ff9900" letter-spacing="0.5">2025</text>
+  <text x="610" y="327" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Product Development</text>
+
+  <!-- Connector lines from spine to cards (left side) -->
+  <line x1="450" y1="40" x2="474" y2="40" stroke="#334155" stroke-width="1"/>
+  <line x1="450" y1="158" x2="474" y2="158" stroke="#334155" stroke-width="1"/>
+  <line x1="444" y1="272" x2="474" y2="272" stroke="#29b5e8" stroke-width="1"/>
+
+  <!-- Connector lines from spine to cards (right side) -->
+  <line x1="486" y1="98" x2="510" y2="98" stroke="#334155" stroke-width="1"/>
+  <line x1="486" y1="214" x2="510" y2="214" stroke="#334155" stroke-width="1"/>
+  <line x1="486" y1="316" x2="510" y2="316" stroke="#ff990088" stroke-width="1"/>
+</svg>

@@ -65,7 +65,7 @@ Building production-scale data platforms at CSAA Insurance Group.
 | ✓ | ✓ | ✓ | ✓ |
 
 <p align="center">
-  <a href="https://subash-nirmal-kolluru.vercel.app/"><img src="https://img.shields.io/badge/View%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="View Demo"></a>
+  <a href="https://carmasurev2.netlify.app/"><img src="https://img.shields.io/badge/View%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="View Demo"></a>
   &nbsp;
   <a href="https://github.com/SubashNirmal-Kolluru"><img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"></a>
 </p>
@@ -121,17 +121,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 ## 📈 Career Journey
 
 <p align="center">
-  <code>2018 &nbsp; Research</code>
-  <br>↓<br>
-  <code>2019 – 2021 &nbsp; Machine Learning & Analytics</code>
-  <br>↓<br>
-  <code>2022 – 2023 &nbsp; Graduate Studies (MS Business Analytics, UT Dallas)</code>
-  <br>↓<br>
-  <code>2023 – 2024 &nbsp; Software Engineering & Databases</code>
-  <br>↓<br>
-  <code>2024 – Present &nbsp; Cloud Data Engineering @ CSAA</code>
-  <br>↓<br>
-  <code>2025 &nbsp; Product Development</code>
+  <img src="https://raw.githubusercontent.com/SubashNirmal-Kolluru/SubashNirmal-Kolluru/SubashNirmalKolluru/assets/career-journey.svg" alt="Career Journey Timeline" width="100%">
 </p>
 
 <br>
