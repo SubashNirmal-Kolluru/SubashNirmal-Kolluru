@@ -1,0 +1,178 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient: deep navy -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060d1a"/>
+      <stop offset="45%" stop-color="#0d1f3c"/>
+      <stop offset="100%" stop-color="#060d1a"/>
+    </linearGradient>
+    <!-- Radial glow behind text -->
+    <radialGradient id="centerglow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#060d1a" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Pipeline node fill -->
+    <linearGradient id="nodeFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f2040" stop-opacity="0.9"/>
+    </linearGradient>
+    <!-- Snowflake blue accent -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#29b5e8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#29b5e8" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="28"/>
+    </filter>
+    <filter id="nodeglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+    </filter>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 Z" fill="#38bdf8" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- Center glow -->
+  <rect width="1200" height="320" fill="url(#centerglow)"/>
+
+  <!-- Subtle dot grid -->
+  <g fill="#334155" opacity="0.18">
+    <rect x="80"  y="30"  width="2" height="2" rx="1"/>
+    <rect x="160" y="30"  width="2" height="2" rx="1"/>
+    <rect x="240" y="30"  width="2" height="2" rx="1"/>
+    <rect x="320" y="30"  width="2" height="2" rx="1"/>
+    <rect x="880" y="30"  width="2" height="2" rx="1"/>
+    <rect x="960" y="30"  width="2" height="2" rx="1"/>
+    <rect x="1040" y="30" width="2" height="2" rx="1"/>
+    <rect x="1120" y="30" width="2" height="2" rx="1"/>
+    <rect x="80"  y="80"  width="2" height="2" rx="1"/>
+    <rect x="160" y="80"  width="2" height="2" rx="1"/>
+    <rect x="240" y="80"  width="2" height="2" rx="1"/>
+    <rect x="320" y="80"  width="2" height="2" rx="1"/>
+    <rect x="880" y="80"  width="2" height="2" rx="1"/>
+    <rect x="960" y="80"  width="2" height="2" rx="1"/>
+    <rect x="1040" y="80" width="2" height="2" rx="1"/>
+    <rect x="1120" y="80" width="2" height="2" rx="1"/>
+    <rect x="80"  y="130" width="2" height="2" rx="1"/>
+    <rect x="160" y="130" width="2" height="2" rx="1"/>
+    <rect x="240" y="130" width="2" height="2" rx="1"/>
+    <rect x="880" y="130" width="2" height="2" rx="1"/>
+    <rect x="960" y="130" width="2" height="2" rx="1"/>
+    <rect x="1040" y="130" width="2" height="2" rx="1"/>
+    <rect x="1120" y="130" width="2" height="2" rx="1"/>
+  </g>
+
+  <!-- Left cloud motif (AWS-inspired) -->
+  <g opacity="0.22">
+    <ellipse cx="110" cy="195" rx="52" ry="28" fill="none" stroke="#29b5e8" stroke-width="1.5"/>
+    <ellipse cx="85"  cy="205" rx="30" ry="20" fill="none" stroke="#29b5e8" stroke-width="1.2"/>
+    <ellipse cx="140" cy="207" rx="28" ry="16" fill="none" stroke="#29b5e8" stroke-width="1.2"/>
+    <line x1="78"  y1="220" x2="78"  y2="244" stroke="#29b5e8" stroke-width="1.2"/>
+    <line x1="110" y1="222" x2="110" y2="244" stroke="#29b5e8" stroke-width="1.2"/>
+    <line x1="142" y1="222" x2="142" y2="244" stroke="#29b5e8" stroke-width="1.2"/>
+    <line x1="68"  y1="244" x2="152" y2="244" stroke="#29b5e8" stroke-width="1.2"/>
+  </g>
+
+  <!-- Right cloud motif (Snowflake-inspired hexagon) -->
+  <g opacity="0.20" transform="translate(1060, 170)">
+    <polygon points="30,0 60,17 60,52 30,70 0,52 0,17" fill="none" stroke="#29b5e8" stroke-width="1.5"/>
+    <line x1="30" y1="0"  x2="30" y2="70" stroke="#29b5e8" stroke-width="1" opacity="0.6"/>
+    <line x1="0"  y1="17" x2="60" y2="52" stroke="#29b5e8" stroke-width="1" opacity="0.6"/>
+    <line x1="60" y1="17" x2="0"  y2="52" stroke="#29b5e8" stroke-width="1" opacity="0.6"/>
+    <circle cx="30" cy="35" r="5" fill="none" stroke="#29b5e8" stroke-width="1.2"/>
+  </g>
+
+  <!-- Data pipeline illustration — bottom band -->
+  <!-- Node glow (background soft circles) -->
+  <g filter="url(#nodeglow)" opacity="0.35">
+    <circle cx="150" cy="278" r="18" fill="#29b5e8"/>
+    <circle cx="310" cy="278" r="18" fill="#3b82f6"/>
+    <circle cx="470" cy="278" r="18" fill="#8b5cf6"/>
+    <circle cx="630" cy="278" r="18" fill="#06b6d4"/>
+    <circle cx="790" cy="278" r="18" fill="#29b5e8"/>
+    <circle cx="950" cy="278" r="18" fill="#3b82f6"/>
+    <circle cx="1050" cy="278" r="18" fill="#8b5cf6"/>
+  </g>
+
+  <!-- Pipeline connector lines with arrows -->
+  <g stroke="#38bdf8" stroke-width="1.5" fill="none" opacity="0.55" stroke-dasharray="4 3">
+    <line x1="178" y1="278" x2="284" y2="278"/>
+    <line x1="338" y1="278" x2="444" y2="278"/>
+    <line x1="498" y1="278" x2="604" y2="278"/>
+    <line x1="658" y1="278" x2="764" y2="278"/>
+    <line x1="818" y1="278" x2="924" y2="278"/>
+    <line x1="978" y1="278" x2="1024" y2="278"/>
+  </g>
+
+  <!-- Pipeline node rectangles -->
+  <g fill="url(#nodeFill)" stroke="#38bdf8" stroke-width="1.2" opacity="0.85">
+    <rect x="122" y="262" width="56" height="32" rx="6"/>
+    <rect x="282" y="262" width="56" height="32" rx="6"/>
+    <rect x="442" y="262" width="56" height="32" rx="6"/>
+    <rect x="602" y="262" width="56" height="32" rx="6"/>
+    <rect x="762" y="262" width="56" height="32" rx="6"/>
+    <rect x="922" y="262" width="56" height="32" rx="6"/>
+    <rect x="1020" y="262" width="56" height="32" rx="6"/>
+  </g>
+
+  <!-- Node labels -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" fill="#94a3b8" text-anchor="middle">
+    <text x="150"  y="281">Sources</text>
+    <text x="310"  y="281">Glue</text>
+    <text x="470"  y="281">EMR</text>
+    <text x="630"  y="281">S3 Lake</text>
+    <text x="790"  y="281">Snowflake</text>
+    <text x="950"  y="281">dbt</text>
+    <text x="1048" y="281">BI</text>
+  </g>
+
+  <!-- Accent separator line under text -->
+  <line x1="380" y1="214" x2="820" y2="214" stroke="url(#accentLine)" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- ── MAIN TEXT ── -->
+  <text x="600" y="100"
+    text-anchor="middle"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="50"
+    font-weight="700"
+    fill="#f1f5f9"
+    letter-spacing="-1">
+    Subash Nirmal Kolluru
+  </text>
+
+  <text x="600" y="145"
+    text-anchor="middle"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="19"
+    font-weight="500"
+    fill="#7dd3fc"
+    letter-spacing="0.5">
+    Software Engineer 2  ·  CSAA Insurance Group
+  </text>
+
+  <text x="600" y="178"
+    text-anchor="middle"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="14.5"
+    font-weight="400"
+    fill="#64748b">
+    Building scalable data platforms, AI-powered applications, and cloud-native solutions.
+  </text>
+
+  <!-- Tech tags -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#475569" text-anchor="middle">
+    <text x="430" y="233">AWS</text>
+    <text x="510" y="233">·</text>
+    <text x="560" y="233">Snowflake</text>
+    <text x="645" y="233">·</text>
+    <text x="690" y="233">PySpark</text>
+    <text x="760" y="233">·</text>
+    <text x="800" y="233">Terraform</text>
+  </g>
+</svg>
