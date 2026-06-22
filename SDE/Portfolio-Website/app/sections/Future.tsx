@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { MessageSquare, BookOpen, Cloud, Play } from 'lucide-react';
 import Section from '../components/Section';

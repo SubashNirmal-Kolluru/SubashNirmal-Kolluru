@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { ArrowUpRight, BookOpen } from 'lucide-react';
 import Section from '../components/Section';
