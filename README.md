@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://subash-nirmal-kolluru.vercel.app/"><strong>⬇ Download Resume</strong></a>
+  <a href="https://subash-nirmal-kolluru.vercel.app/"><b>&nbsp;&nbsp;↓ &nbsp; Download Resume &nbsp;&nbsp;</b></a>
 </p>
 
 <br>
@@ -24,25 +24,14 @@
 
 ## 🎯 Engineering Impact
 
-| &nbsp;&nbsp;Data Scale&nbsp;&nbsp; | &nbsp;&nbsp;Performance Improvement&nbsp;&nbsp; |
-|:-----------:|:------------:|
-| **3 TB+ / day** | **80% Faster Processing** |
-
-| &nbsp;&nbsp;Automation Impact&nbsp;&nbsp; | &nbsp;&nbsp;Research&nbsp;&nbsp; |
-|:-----------:|:---------:|
-| **40% Improvement** | **2 Publications** |
+| &nbsp;&nbsp;Data Scale&nbsp;&nbsp; | &nbsp;&nbsp;Performance&nbsp;&nbsp; | &nbsp;&nbsp;Automation&nbsp;&nbsp; | &nbsp;&nbsp;Research&nbsp;&nbsp; |
+|:-----------:|:------------:|:-----------:|:---------:|
+| **3 TB+ / day** | **80% Faster** | **40% Improvement** | **2 Publications** |
 
 <br>
 
-```mermaid
-flowchart LR
-    A([Source Systems]) --> B([AWS Glue])
-    B --> C([EMR Serverless])
-    C --> D([S3 Data Lake])
-    D --> E([Snowflake])
-    E --> F([dbt])
-    F --> G([Analytics & BI])
-```
+| Sources | → | AWS Glue | → | EMR Serverless | → | S3 Data Lake | → | Snowflake | → | dbt | → | Analytics & BI |
+|:-------:|:-:|:--------:|:-:|:--------------:|:-:|:------------:|:-:|:---------:|:-:|:---:|:-:|:--------------:|
 
 <br>
 
@@ -165,7 +154,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 ## 📦 Archive
 
 <details>
-<summary><b>▶ Machine Learning</b></summary>
+<summary><b>Machine Learning</b></summary>
 <br>
 
 - **[COVID-19-Forecasting-RNN](./DS-ML/COVID-19-Forecasting-RNN/)** — RNN-based COVID case forecasting
@@ -176,7 +165,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 </details>
 
 <details>
-<summary><b>▶ Analytics</b></summary>
+<summary><b>Analytics</b></summary>
 <br>
 
 - **[Pharmacy Analysis](./DS-ML/US-StateLevel-PharmacyAnalysis-Prediction/)** — EDA and predictive modeling of US pharmacy distribution
@@ -187,7 +176,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 </details>
 
 <details>
-<summary><b>▶ Optimization</b></summary>
+<summary><b>Optimization</b></summary>
 <br>
 
 - **[Capacitated Vehicle Routing + Sentiment Analysis](./DS-ML/Capacitated-Vehicle-Routing-Problem--Sentiment-Analysis/)** — Route optimization and delivery prioritization
@@ -195,7 +184,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 </details>
 
 <details>
-<summary><b>▶ Hardware</b></summary>
+<summary><b>Hardware</b></summary>
 <br>
 
 - **[Soundless Honking System](./DS-ML/SoundlessHonkingSystem/)** — Arduino-based non-intrusive vehicle alert system
