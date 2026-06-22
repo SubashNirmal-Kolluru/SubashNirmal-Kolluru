@@ -12,23 +12,25 @@
   <a href="https://subash-nirmal-kolluru.vercel.app/">Portfolio</a>
   &nbsp;·&nbsp;
   <a href="mailto:subash.nirmal.kolluru@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://subash-nirmal-kolluru.vercel.app/">Resume</a>
+</p>
+
+<p align="center">
+  <a href="https://subash-nirmal-kolluru.vercel.app/"><strong>⬇ Download Resume</strong></a>
 </p>
 
 <br>
 
----
+<p align="center">··············································································</p>
 
 ## 🎯 Engineering Impact
 
-<p align="center">
+| &nbsp;&nbsp;Data Scale&nbsp;&nbsp; | &nbsp;&nbsp;Performance Improvement&nbsp;&nbsp; |
+|:-----------:|:------------:|
+| **3 TB+ / day** | **80% Faster Processing** |
 
-| &nbsp;&nbsp;Data Scale&nbsp;&nbsp; | &nbsp;&nbsp;Performance&nbsp;&nbsp; | &nbsp;&nbsp;Automation&nbsp;&nbsp; | &nbsp;&nbsp;Research&nbsp;&nbsp; |
-|:-----------:|:------------:|:-----------:|:---------:|
-| **3 TB+ / day** | **80% Faster** | **40% Improvement** | **2 Publications** |
-
-</p>
+| &nbsp;&nbsp;Automation Impact&nbsp;&nbsp; | &nbsp;&nbsp;Research&nbsp;&nbsp; |
+|:-----------:|:---------:|
+| **40% Improvement** | **2 Publications** |
 
 <br>
 
@@ -44,43 +46,57 @@ flowchart LR
 
 <br>
 
----
+<p align="center">··············································································</p>
 
-## � Featured Project &nbsp;—&nbsp; CarmaSure
+## 🔭 Current Focus
+
+Building production-scale data platforms at CSAA Insurance Group.
+
+`Snowflake Data Engineering` &nbsp; `AWS Glue & EMR Serverless` &nbsp; `CDC Pipelines`
+
+`Data Modeling` &nbsp; `Metadata-Driven Automation` &nbsp; `Analytics Engineering` &nbsp; `AI-Augmented Data Platforms`
+
+<br>
+
+<p align="center">··············································································</p>
+
+## 🚗 Featured Project &nbsp;—&nbsp; CarmaSure
 
 > Privacy-first insurance intelligence platform built with Flutter.
 
-| Offline Estimation | Modern Mobile UX | AI-Ready Architecture | Product-Focused |
-|:-----------------:|:----------------:|:---------------------:|:---------------:|
-| ✓ | ✓ | ✓ | ✓ |
-
-<!-- Screenshot placeholder — uncomment when asset is available:
+<!-- Screenshot — uncomment when asset is available:
 <p align="center">
   <img src="https://raw.githubusercontent.com/SubashNirmal-Kolluru/SubashNirmal-Kolluru/SubashNirmalKolluru/assets/carmasure-screenshot.png" alt="CarmaSure screenshot" width="90%">
 </p>
 -->
 
+| Offline Estimation | Modern Mobile UX | AI-Ready Architecture | Product-Focused |
+|:-----------------:|:----------------:|:---------------------:|:---------------:|
+| ✓ | ✓ | ✓ | ✓ |
+
 <p align="center">
-  <a href="https://subash-nirmal-kolluru.vercel.app/">Demo</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/SubashNirmal-Kolluru">Repository</a>
+  <a href="https://subash-nirmal-kolluru.vercel.app/"><strong>View Demo →</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/SubashNirmal-Kolluru">Repository →</a>
 </p>
 
 <br>
 
----
+<p align="center">··············································································</p>
 
 ## 💼 Featured Work
 
-### ☁️ Data Engineering Portfolio
+### ☁️ Data Engineering Portfolio *(In Progress)*
 
 Production-scale AWS and Snowflake architectures for enterprise data platforms.
 
 `CDC Pipelines` &nbsp; `Data Modeling` &nbsp; `PySpark` &nbsp; `Terraform` &nbsp; `Airflow`
 
+*Coming soon: AWS Architectures · Snowflake Patterns · CDC Pipelines · Terraform Modules*
+
 <p><a href="./Data-Engineering-Portfolio/">View Portfolio →</a></p>
 
----
+<br>
 
 ### 🔬 One-Class SVM Research
 
@@ -92,7 +108,7 @@ Published anomaly detection research on early equipment failure prediction using
   <a href="https://index.ieomsociety.org/index.cfm/article/view/ID/1983">Read Paper (HMM) →</a>
 </p>
 
----
+<br>
 
 ### 🗄️ SimpleDB
 
@@ -100,7 +116,7 @@ Database engine built from scratch — query processing, storage management, and
 
 <p><a href="./SDE/SimpleDB-DatabaseEngineImplementation/">View Project →</a></p>
 
----
+<br>
 
 ### 🎮 Train with Arms
 
@@ -110,31 +126,31 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 
 <br>
 
----
+<p align="center">··············································································</p>
 
 ## 📈 Career Journey
 
 <p align="center">
-  <code>Research</code>
-  &nbsp;&nbsp;→&nbsp;&nbsp;
-  <code>Machine Learning</code>
-  &nbsp;&nbsp;→&nbsp;&nbsp;
-  <code>Optimization & Analytics</code>
-  &nbsp;&nbsp;→&nbsp;&nbsp;
-  <code>Graduate Studies</code>
-  &nbsp;&nbsp;→&nbsp;&nbsp;
-  <code>Cloud Data Engineering</code>
-  &nbsp;&nbsp;→&nbsp;&nbsp;
-  <code>Product Development</code>
+  <code>2018 &nbsp; Research</code>
+  <br>↓<br>
+  <code>2019 – 2021 &nbsp; Machine Learning & Analytics</code>
+  <br>↓<br>
+  <code>2022 – 2023 &nbsp; Graduate Studies (MS Business Analytics, UT Dallas)</code>
+  <br>↓<br>
+  <code>2023 – 2024 &nbsp; Software Engineering & Databases</code>
+  <br>↓<br>
+  <code>2024 – Present &nbsp; Cloud Data Engineering @ CSAA</code>
+  <br>↓<br>
+  <code>2025 &nbsp; Product Development</code>
 </p>
 
 <br>
 
----
+<p align="center">··············································································</p>
 
 ## 🛠️ Technical Expertise
 
-**Data Engineering** &nbsp;&nbsp; `AWS` &nbsp; `Snowflake` &nbsp; `PySpark` &nbsp; `Airflow`
+**Data Engineering** &nbsp;&nbsp; `Snowflake` &nbsp; `AWS` &nbsp; `PySpark` &nbsp; `Glue` &nbsp; `EMR` &nbsp; `Airflow`
 
 **Cloud & Infra** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Terraform` &nbsp; `CI/CD` &nbsp; `Lambda` &nbsp; `S3`
 
@@ -144,26 +160,12 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 
 <br>
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SubashNirmal-Kolluru&show_icons=true&theme=dark&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats" height="140">
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SubashNirmal-Kolluru&theme=dark&hide_border=true" alt="GitHub Streak" height="140">
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SubashNirmal-Kolluru&layout=compact&theme=dark&hide_border=true&langs_count=6" alt="Top Languages" height="140">
-</p>
-
-<br>
-
----
+<p align="center">··············································································</p>
 
 ## 📦 Archive
 
 <details>
-<summary><b>Machine Learning</b></summary>
+<summary><b>▶ Machine Learning</b></summary>
 <br>
 
 - **[COVID-19-Forecasting-RNN](./DS-ML/COVID-19-Forecasting-RNN/)** — RNN-based COVID case forecasting
@@ -174,7 +176,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 </details>
 
 <details>
-<summary><b>Analytics</b></summary>
+<summary><b>▶ Analytics</b></summary>
 <br>
 
 - **[Pharmacy Analysis](./DS-ML/US-StateLevel-PharmacyAnalysis-Prediction/)** — EDA and predictive modeling of US pharmacy distribution
@@ -185,7 +187,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 </details>
 
 <details>
-<summary><b>Optimization</b></summary>
+<summary><b>▶ Optimization</b></summary>
 <br>
 
 - **[Capacitated Vehicle Routing + Sentiment Analysis](./DS-ML/Capacitated-Vehicle-Routing-Problem--Sentiment-Analysis/)** — Route optimization and delivery prioritization
@@ -193,7 +195,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 </details>
 
 <details>
-<summary><b>Hardware</b></summary>
+<summary><b>▶ Hardware</b></summary>
 <br>
 
 - **[Soundless Honking System](./DS-ML/SoundlessHonkingSystem/)** — Arduino-based non-intrusive vehicle alert system
@@ -202,7 +204,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 
 <br>
 
----
+<p align="center">··············································································</p>
 
 ## 🔮 Looking Ahead
 
@@ -210,7 +212,7 @@ VR FPS training game with locomotion, health systems, and AI-driven enemies.
 - **AI Assistant** — Conversational interface for exploring my experience and projects
 - **Blog** — Technical deep-dives into data engineering, ML, and product development
 
----
+<p align="center">··············································································</p>
 
 <p align="center">
   <i>Open to conversations about data engineering, cloud architecture, ML systems, and product engineering.</i>
