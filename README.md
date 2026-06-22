@@ -1,90 +1,123 @@
-<h2 align="center">Hi, I'm Subash Nirmal Kolluru  <img src="https://user-images.githubusercontent.com/39955420/147578264-bae0526c-028a-49d2-8af8-d08bb4edbd2a.gif" height="30" width="30"></h2>
- 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subash-nirmal-kolluru/)
+<h1 align="center">Subash Nirmal Kolluru</h1>
 
-<!-- <h2 align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDc5Z2R3Z3k5aGQ5ZWpjd3lmcHV0ejh5ZnJzaDljN284dGloa3BwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kq78tSGO0zVLHEexb8/giphy.gif"></h2> -->
+<p align="center">
+  <b>Software Engineer 2</b> @ CSAA Insurance Group · <b>Data Engineer</b> · <b>Product Builder</b> · <b>Published Researcher</b>
+</p>
 
-## Table of Contents  
+<p align="center">
+  <a href="https://www.linkedin.com/in/subash-nirmal-kolluru/">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://subashnirmalportfolio.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-8b5cf6?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="mailto:subash.nirmal.kolluru@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
-1. [About me](#about-me) 
-2. [Tech Stack](#tech-stack) 
-3. [DS/ML Projects](#dsml-projects)  
-4. [SDE Projects](#sde-projects)
-5. [Publications](#publications)   
+---
 
+## About
 
-<h2>About me</h2>
+I design and build production data platforms that move terabytes daily, with a focus on reliability, observability, and measurable business impact. Currently **Software Engineer 2** at **CSAA Insurance Group**, where I lead data engineering initiatives across AWS and Snowflake.
 
-I write programs that works (most of the time) and breaks elegantly (when it doesn’t). Currently making magic happen at **CSAA Insurance Group** as a **Software Engineer 2**. I’m also passionate about **Data Science** and **Machine Learning**, always looking for ways to sneak them into my work to unlock deeper insights (and impress my code reviewers).
+My work spans high-scale data pipelines, cloud-native architecture, applied ML, and end-to-end product development. I also bring a research background in predictive maintenance and anomaly detection, with two publications at IEOM conferences.
 
+- **Data Engineering:** AWS Glue, EMR Serverless, Snowflake, PySpark, Airflow, Terraform, CDC pipelines
+- **Product Development:** Flutter, React, API design, cross-functional delivery
+- **AI / ML:** One-Class SVM, prognostics, anomaly detection, predictive modeling, LLM integration
 
-<br />
-⚡ Fun fact: I’m a big fan of solving complex puzzles—whether it's debugging code or tackling a challenging dataset, I’m always up for it!
-<br />
-💬 Feel free to reach out if you want to chat about LLM, DS/ML, or tech in general! :D
+---
 
-<h2>🛠Tech Stack</h2>
+## Engineering Impact
 
-Languages and Platforms  
-![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow)
-![Snowflake](https://img.shields.io/badge/Snowflake-%23F0FFFF.svg?style=for-the-badge&logo=snowflake&logoColor=blue)
-![AWS](https://img.shields.io/badge/AWS-%233334.svg?style=for-the-badge&logo=amazonwebservices&logoColor=yellow)
-![PowerBI](https://img.shields.io/badge/PowerBI-%23FFFF00.svg?style=for-the-badge&logo=powerbi&logoColor=black)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![C++](https://img.shields.io/badge/C++-%23B0C0B0.svg?style=for-the-badge&logo=cplusplus&logoColor=blue)
-![R](https://img.shields.io/badge/R-%23F6FFFF.svg?style=for-the-badge&logo=r&logoColor=blue)
-![Ruby](https://img.shields.io/badge/Ruby-%23B0B0B0.svg?style=for-the-badge&logo=ruby&logoColor=red)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- **3 TB+** of data processed daily through production pipelines
+- **80%** reduction in data processing time through optimized Spark and Snowflake workloads
+- **40%** improvement in operational automation via orchestration and CI/CD
+- **2** published research papers on industrial fault detection
 
-Frameworks and Libraries  
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=blue)
-![Keras](https://img.shields.io/badge/Keras-%23D02000.svg?style=for-the-badge&logo=keras&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-%23152458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Numpy](https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%230673A5.svg?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Tensorflow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Hugging%20Face-%23FFAE00.svg?style=for-the-badge&logo=huggingface&logoColor=white)
-![Sinatra](https://img.shields.io/badge/Sinatra-%23FF0000.svg?style=for-the-badge&logo=rubysinatra&logoColor=white)
-![Sidekiq](https://img.shields.io/badge/Sidekiq-%23DC382D.svg?style=for-the-badge&logo=sidekiq&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
-![Jira](https://img.shields.io/badge/JIRA-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=whitee)
-![Confluence](https://img.shields.io/badge/Confluence-%232671E5.svg?style=for-the-badge&logo=confluence&logoColor=white)
-![GIT](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+---
 
+## Featured Work
 
-## DS/ML Projects  
+| Project | What It Is | Stack |
+|---------|-------------|-------|
+| **CarmaSure** | Privacy-first insurance intelligence platform with offline estimation and modern mobile UX | Flutter, AI/ML, APIs |
+| **Data Engineering Portfolio** | Production-scale AWS and Snowflake architectures, CDC pipelines, and data modeling | AWS, Snowflake, PySpark, Airflow, Terraform |
+| **Fault Diagnosis using One-Class SVM** | Published research on anomaly detection and early equipment failure prediction | Python, Scikit-learn, One-Class SVM |
+| **SimpleDB Database Engine** | Database engine built from scratch supporting query processing, storage, and CRUD operations | Java, Spring Boot |
+| **Train with Arms** | VR FPS training game with locomotion, health system, and AI-driven enemies | Unity, C# |
 
-<h2 align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXZuMnN3dzA3Zjd5b21kM2l4YzBoNTBjd2o5dTc1ZXR4a3BsNmVmNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5k5vZwRFZR5aZeniqb/giphy.gif"></h2>
+---
 
-| Project Name                     | Description                                                                                 | Tech Stack                                     |
-|-----------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------|
-| **[Capacitated-Vehicle-Routing-Problem--Sentiment-Analysis](./DS-ML/Capacitated-Vehicle-Routing-Problem--Sentiment-Analysis/)**      | Optimized the Vehicle Routing Problem for food delivery service and prioritized delivery using Sentiment Analysis for a Startup         | ![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow) <br> ![R](https://img.shields.io/badge/R-%23F6FFFF.svg?style=for-the-badge&logo=r&logoColor=blue) <br> ![Google Maps API](https://img.shields.io/badge/Google_Maps_API-%234285F4.svg?style=for-the-badge&logo=google-maps&logoColor=white) <br> ![CPLEX](https://img.shields.io/badge/CPLEX-%230E6D3A.svg?style=for-the-badge&logo=ibm&logoColor=white)    |
-| **[ConcreteStrengthPrediction--GradientDescent-vs-ML](./DS-ML/ConcreteStrengthPrediction--GradientDescent-vs-ML/)**      | Compares Gradient Descent and Machine Learning models Performance and predict concrete's compressive strength.          | ![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow) <br>   ![Google Colab](https://img.shields.io/badge/Google_Colab-%234B32C3.svg?style=for-the-badge&logo=google-colab&logoColor=white)   |
-| **[COVID-19-Forecasting-RNN](./DS-ML/COVID-19-Forecasting-RNN/)**      | This project uses an **RNN** implemented from scratch to forecast COVID-19 cases based on historical data.           | ![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow) <br> ![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)|
-| **[Fault-Diagnosis-using-OneClassSVM](./DS-ML/Fault-Diagnosis-using-OneClassSVM/)**      | This project applies **One-Class SVM** for anomaly detection to identify faults in industrial systems.           | ![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow) <br> ![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)|
-| **[GST-Twitter-Sentiment-Analysis](./DS-ML/GST-Twitter-Sentiment-Analysis/)**      | This project compares Twitter sentiment before and after GST implementation using NLP techniques.           | ![R](https://img.shields.io/badge/R-%23F6FFFF.svg?style=for-the-badge&logo=r&logoColor=blue) <br> ![SQLite](https://img.shields.io/badge/SQLite-%2307405F.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Twitter API](https://img.shields.io/badge/Twitter_API-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)|
-| **[IPL-Win-Prediction](./DS-ML/IPL-Win-Prediction/)**      | Predicts IPL cricket match outcomes using staistical models based on historical match data and player statistics.      | ![R](https://img.shields.io/badge/R-%23F6FFFF.svg?style=for-the-badge&logo=r&logoColor=blue) |
-| **[Kaggle_MOA-DrugPrediction](./DS-ML/Kaggle_MOA-DrugPrediction/)**      |   Developed an algorithm to predict the **Mechanism of Action (MoA)** of drugs based on cellular responses, using a dataset combining gene expression and cell viability data.   | ![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow) <br> ![Kaggle](https://img.shields.io/badge/Kaggle-%231D9BFC.svg?style=for-the-badge&logo=kaggle&logoColor=white)|
-| **[Movie-Gross-Prediction](./DS-ML/Movie-Gross-Prediction/)**      | Predicts a movie's box office gross based on factors like budget, cast, genre, and marketing using machine learning models.        | ![R](https://img.shields.io/badge/R-%23F6FFFF.svg?style=for-the-badge&logo=r&logoColor=blue) |
-| **[SoundlessHonkingSystem](./DS-ML/SoundlessHonkingSystem/)**      | Developed a **Soundless Honking System** that uses sensors to detect obstacles and provides a non-intrusive visual warning system for drivers.        | ![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow)<br> ![Arduino](https://img.shields.io/badge/Arduino-%23008C8C.svg?style=for-the-badge&logo=arduino&logoColor=white) <br> ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
-| **[US-StateLevel-PharmacyAnalysis-Prediction](./DS-ML/US-StateLevel-PharmacyAnalysis-Prediction/)**      | Exploratory data analysis and predictive modeling of US pharmacy distribution across demographic and healthcare factors, using PCA and ensemble methods.           | ![Python](https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=python&logoColor=yellow) <br> ![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)|
+## Career Journey
 
+- **2024 – Present** · Software Engineer 2 · CSAA Insurance Group · AWS data engineering, Snowflake, and enterprise automation
+- **2022 – 2024** · MS Business Analytics · UT Dallas · Advanced ML, deep learning, forecasting
+- **2019 – 2022** · Machine Learning & Optimization · Shell, Tiger Analytics · Predictive modeling, analytics, operations research
+- **2018 – 2019** · Research & ML Projects · Shell · Anomaly detection, fault diagnosis, prognostics
 
-## SDE Projects  
-
-<h2 align="center"><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJncTF3YXY1NDliazliNXBueG9ndGY3Mjdnc3dxazVlcHJpb3htaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"></h2>
-
-| Project Name                     | Description                                                                                 | Tech Stack                                     |
-|-----------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------|
-| **[Portfolio-Website](./SDE/Portfolio-Website/)**      | A personal **portfolio website** to showcase skills, projects, and experience, built with **React JS**.           | ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=yellow) <br> ![React](https://img.shields.io/badge/React-%2300D8FF.svg?style=for-the-badge&logo=react&logoColor=white) <br> ![Sanity](https://img.shields.io/badge/Sanity-%23406F8C.svg?style=for-the-badge&logo=sanity&logoColor=white)  |
-| **[SimpleDB-DatabaseEngineImplementation](./SDE/SimpleDB-DatabaseEngineImplementation/)**      | Implemented a simple **Database Engine** that supports basic **CRUD operations** (Create, Read, Update, Delete) and is designed to manage records efficiently in a structured format.                                             | ![Java](https://img.shields.io/badge/Java-%23F7A800.svg?style=for-the-badge&logo=java&logoColor=white) <br> ![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)    |
-| **[StrikeForce-FPS_Mission](./SDE/StrikeForce-FPS_Mission/)**      | This project is a **First-Person Shooter (FPS)** game, featuring engaging missions, player mechanics, and immersive environments, developed using **Unity** and **C#**.       | ![Unity](https://img.shields.io/badge/Unity-%232F2F2F.svg?style=for-the-badge&logo=unity&logoColor=white) <br> ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)|
-
+---
 
 ## Publications
+
 - [**Early Detection of Equipment Failure Using One-Class Support Vector Machine**](https://index.ieomsociety.org/index.cfm/article/view/ID/1989)  
-  *Explores anomaly detection using one-class SVM.*
+  *IEOM Society International Conference — Anomaly detection for industrial fault diagnosis.*
 
 - [**Hidden Markov Models to Detect Early Equipment Failure**](https://index.ieomsociety.org/index.cfm/article/view/ID/1983)  
-  *Applies HMMs to time-series sensor data for early fault detection.*
+  *IEOM Society International Conference — Time-series prognostics for equipment failure.*
+
+---
+
+## Technical Expertise
+
+<p>
+  <img src="https://img.shields.io/badge/AWS-%23232F3E.svg?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Snowflake-%2300AEFF.svg?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake">
+  <img src="https://img.shields.io/badge/PySpark-%23E25A1C.svg?style=flat-square&logo=apachespark&logoColor=white" alt="PySpark">
+  <img src="https://img.shields.io/badge/Python-%230769AD.svg?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Airflow-%23017CEE.svg?style=flat-square&logo=apacheairflow&logoColor=white" alt="Airflow">
+  <img src="https://img.shields.io/badge/Terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat-square&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=flat-square&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/AI%2FML-%238b5cf6.svg?style=flat-square&logo=tensorflow&logoColor=white" alt="AI/ML">
+</p>
+
+---
+
+## Project Archive
+
+A collection of earlier academic, exploratory, and hardware projects.
+
+### Machine Learning & Analytics
+
+- **[COVID-19-Forecasting-RNN](./DS-ML/COVID-19-Forecasting-RNN/)** — RNN-based COVID case forecasting
+- **[Kaggle MOA Drug Prediction](./DS-ML/Kaggle_MOA-DrugPrediction/)** — Multi-label drug mechanism classification
+- **[Concrete Strength Prediction](./DS-ML/ConcreteStrengthPrediction--GradientDescent-vs-ML/)** — Gradient descent vs. scikit-learn regression comparison
+- **[Pharmacy Analysis](./DS-ML/US-StateLevel-PharmacyAnalysis-Prediction/)** — EDA and predictive modeling of US pharmacy distribution
+- **[Movie Gross Prediction](./DS-ML/Movie-Gross-Prediction/)** — Bollywood box office forecasting using web-scraped data
+- **[IPL Win Prediction](./DS-ML/IPL-Win-Prediction/)** — Statistical modeling of cricket match outcomes
+- **[GST Twitter Sentiment Analysis](./DS-ML/GST-Twitter-Sentiment-Analysis/)** — Pre/post-GST sentiment comparison using NLP
+
+### Optimization & Systems
+
+- **[Capacitated Vehicle Routing + Sentiment Analysis](./DS-ML/Capacitated-Vehicle-Routing-Problem--Sentiment-Analysis/)** — Route optimization and delivery prioritization
+- **[Soundless Honking System](./DS-ML/SoundlessHonkingSystem/)** — Arduino-based non-intrusive vehicle alert system
+
+### Software Development
+
+- **[Portfolio Website (V1)](./SDE/Portfolio-Website/)** — React-based personal portfolio with Sanity CMS
+- **[Portfolio Website V2](./SDE/Portfolio-Website-V2/)** — Modern Next.js portfolio with static preview
+
+---
+
+## Looking Ahead
+
+- **Data Engineering Portfolio** — A dedicated repository for AWS architectures, Snowflake patterns, CDC pipelines, and Terraform modules
+- **AI Assistant** — Conversational interface for exploring my experience and projects
+- **Blog** — Technical deep-dives into data engineering, ML, and product development
+
+---
+
+*Open to conversations about data engineering, cloud architecture, ML systems, and product engineering.*
