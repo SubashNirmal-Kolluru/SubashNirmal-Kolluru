@@ -22,9 +22,10 @@ const publications = [
 export default function Publications() {
   return (
     <Section id="publications">
-      <div className="mb-12 md:mb-16">
+      <div className="mb-8">
+        <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20 mb-4">Published Research</span>
         <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Publications</p>
-        <h2 className="text-3xl md:text-5xl font-bold text-white text-balance">
+        <h2 className="text-3xl md:text-4xl font-bold text-white">
           Research contributions
         </h2>
       </div>
@@ -58,7 +59,7 @@ export default function Publications() {
             <p className="text-muted-light mb-4 leading-relaxed">
               {pub.summary}
             </p>
-            <p className="text-sm text-accent font-medium">{pub.venue}</p>
+            <p className="text-sm font-semibold text-accent">{pub.venue}</p>
           </motion.a>
         ))}
       </div>

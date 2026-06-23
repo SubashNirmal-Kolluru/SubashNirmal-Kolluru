@@ -1,62 +1,47 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MessageSquare, BookOpen, Cloud, Play } from 'lucide-react';
+import { Layers, Cpu, Smartphone } from 'lucide-react';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
 
-const placeholders = [
+const items = [
   {
-    icon: MessageSquare,
-    title: 'AI Assistant',
-    subtitle: 'Ask About Subash',
-    description: 'A conversational interface to explore experience, projects, and skills.',
+    icon: Layers,
+    title: 'Data Engineering Patterns',
+    description: 'Reusable architecture and platform patterns for scalable data systems.',
   },
   {
-    icon: BookOpen,
-    title: 'Blog',
-    subtitle: 'Technical Articles',
-    description: 'Deep dives into data engineering, ML, and product development.',
+    icon: Cpu,
+    title: 'AI-Augmented Engineering',
+    description: 'Applying AI to developer productivity and automated pipeline management.',
   },
   {
-    icon: Cloud,
-    title: 'AWS Architecture',
-    subtitle: 'Interactive Showcase',
-    description: 'Explore production data pipelines and cloud architecture diagrams.',
-  },
-  {
-    icon: Play,
-    title: 'CarmaSure Demo',
-    subtitle: 'Live Integration',
-    description: 'Interactive product demo and case study walkthrough.',
+    icon: Smartphone,
+    title: 'CarmaSure Evolution',
+    description: 'Future product enhancements and platform experimentation.',
   },
 ];
 
 export default function Future() {
   return (
     <Section id="future" className="bg-surface/30">
-      <div className="mb-12 md:mb-16">
-        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Coming Soon</p>
-        <h2 className="text-3xl md:text-5xl font-bold text-white text-balance">
-          Future enhancements
+      <div className="mb-8">
+        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Currently Building</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-white">
+          What&apos;s next
         </h2>
-        <p className="text-muted-light mt-3 max-w-2xl">
-          Architecture-ready sections planned for the next iteration of this portfolio.
-        </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-        {placeholders.map((item, index) => {
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {items.map((item, index) => {
           const Icon = item.icon;
           return (
-            <GlassCard key={item.title} delay={index * 0.1} hover={false}>
-              <div className="p-2 rounded-lg bg-white/5 text-muted-light w-fit mb-4">
-                <Icon size={22} />
+            <GlassCard key={item.title} delay={index * 0.1}>
+              <div className="p-2 rounded-lg bg-primary/10 text-primary w-fit mb-4">
+                <Icon size={20} />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-1">{item.title}</h3>
-              <p className="text-xs text-accent font-medium uppercase tracking-wide mb-3">
-                {item.subtitle}
-              </p>
+              <h3 className="text-base font-semibold text-white mb-2">{item.title}</h3>
               <p className="text-sm text-muted-light leading-relaxed">{item.description}</p>
             </GlassCard>
           );

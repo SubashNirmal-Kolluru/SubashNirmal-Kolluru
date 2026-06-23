@@ -41,14 +41,14 @@ export default function Archive() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <Section id="archive">
-      <div className="mb-12 md:mb-16">
-        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Archive</p>
-        <h2 className="text-3xl md:text-5xl font-bold text-white text-balance">
-          Earlier projects
+    <Section id="library">
+      <div className="mb-8">
+        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Project Library</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-white">
+          Additional projects
         </h2>
-        <p className="text-muted-light mt-3 max-w-2xl">
-          A collection of previous work spanning machine learning, analytics, optimization, and hardware prototyping.
+        <p className="text-muted-light mt-2 max-w-2xl text-sm">
+          Projects spanning machine learning, analytics, optimization, and hardware systems.
         </p>
       </div>
 

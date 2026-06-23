@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import Impact from './sections/Impact';
 import FeaturedWork from './sections/FeaturedWork';
+import ArchitectureShowcase from './sections/ArchitectureShowcase';
 import Journey from './sections/Journey';
 import Publications from './sections/Publications';
 import Expertise from './sections/Expertise';
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Impact />
       <FeaturedWork />
+      <ArchitectureShowcase />
       <Journey />
       <Publications />
       <Expertise />

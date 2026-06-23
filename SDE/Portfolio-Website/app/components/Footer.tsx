@@ -9,9 +9,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h3 className="text-lg font-semibold text-white">Subash Nirmal Kolluru</h3>
-            <p className="text-sm text-muted mt-1">
-              Software Engineer 2 | Data Engineer
-            </p>
+            <p className="text-sm text-muted mt-1">Data Engineer</p>
+            <p className="text-xs text-muted mt-0.5">AWS • Snowflake • Analytics Engineering</p>
           </div>
 
           <div className="flex items-center gap-4">

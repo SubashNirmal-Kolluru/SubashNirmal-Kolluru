@@ -6,10 +6,9 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { label: 'Work', href: '#featured' },
-  { label: 'Journey', href: '#journey' },
+  { label: 'Impact', href: '#impact' },
   { label: 'Research', href: '#publications' },
-  { label: 'Expertise', href: '#expertise' },
-  { label: 'Archive', href: '#archive' },
+  { label: 'Library', href: '#library' },
 ];
 
 export default function Navbar() {

@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Subash Nirmal Kolluru | Data Engineer | AWS | Snowflake',
   description:
-    'Software Engineer 2 at CSAA Insurance Group building scalable data platforms, AI-powered applications, and cloud-native solutions.',
+    'Data Engineer at CSAA Insurance Group building production-scale data platforms, metadata-driven automation frameworks, and AI-enabled products on AWS and Snowflake.',
   keywords: [
     'Subash Nirmal Kolluru',
     'Data Engineer',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Subash Nirmal Kolluru | Data Engineer | AWS | Snowflake',
     description:
-      'Software Engineer 2 at CSAA Insurance Group building scalable data platforms, AI-powered applications, and cloud-native solutions.',
+      'Data Engineer at CSAA Insurance Group building production-scale data platforms, metadata-driven automation frameworks, and AI-enabled products on AWS and Snowflake.',
     type: 'website',
     locale: 'en_US',
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Subash Nirmal Kolluru | Data Engineer | AWS | Snowflake',
     description:
-      'Software Engineer 2 at CSAA Insurance Group building scalable data platforms, AI-powered applications, and cloud-native solutions.',
+      'Data Engineer at CSAA Insurance Group building production-scale data platforms, metadata-driven automation frameworks, and AI-enabled products on AWS and Snowflake.',
     images: ['/og-image.svg'],
   },
   robots: {

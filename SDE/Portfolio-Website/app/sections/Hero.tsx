@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Linkedin, FileText, ExternalLink } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, FileText, Globe } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -19,15 +19,20 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="text-accent text-sm md:text-base font-medium tracking-wide uppercase mb-4">
-            Software Engineer 2 | Data Engineer
+          <p className="text-accent text-sm md:text-base font-medium tracking-wide uppercase mb-3">
+            Data Engineer
+          </p>
+          <p className="text-muted text-sm md:text-base tracking-wide mb-6">
+            AWS • Snowflake • Analytics Engineering
           </p>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6 text-balance">
             Subash Nirmal{' '}
             <span className="gradient-text">Kolluru</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-light max-w-2xl mx-auto mb-10 leading-relaxed text-balance">
-            Building scalable data platforms, AI-powered applications, and cloud-native solutions.
+            Building production-scale data platforms,{' '}
+            metadata-driven automation frameworks,{' '}
+            and AI-enabled products.
           </p>
         </motion.div>
 
@@ -38,20 +43,18 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
+            href="#featured"
+            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-primary text-white font-semibold hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25"
+          >
+            <Globe size={18} />
+            Explore Portfolio
+          </a>
+          <a
             href="/resume.pdf"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-background font-semibold hover:bg-white/90 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass text-white font-medium hover:bg-surface-light transition-colors"
           >
             <FileText size={18} />
             Resume
-          </a>
-          <a
-            href="https://github.com/SubashNirmal-Kolluru"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass text-white font-medium hover:bg-surface-light transition-colors"
-          >
-            <Github size={18} />
-            GitHub
           </a>
           <a
             href="https://www.linkedin.com/in/subash-nirmal-kolluru/"
@@ -63,11 +66,13 @@ export default function Hero() {
             LinkedIn
           </a>
           <a
-            href="#carmasure"
+            href="https://github.com/SubashNirmal-Kolluru"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass text-white font-medium hover:bg-surface-light transition-colors"
           >
-            <ExternalLink size={18} />
-            CarmaSure Demo
+            <Github size={18} />
+            GitHub
           </a>
         </motion.div>
       </div>
