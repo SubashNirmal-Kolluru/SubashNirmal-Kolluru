@@ -1,12 +1,13 @@
+import { Database, Zap, Bot, BookOpen } from 'lucide-react';
 import Section from '../components/Section';
 import GlassCard from '../components/GlassCard';
 import AnimatedCounter from '../components/AnimatedCounter';
 
 const metrics = [
-  { value: 3, suffix: 'TB+', label: 'Data Processed Daily' },
-  { value: 80, suffix: '%', label: 'Processing Improvement' },
-  { value: 40, suffix: '%', label: 'Automation Improvement' },
-  { value: 2, suffix: '', label: 'Published Research Papers' },
+  { value: 3, suffix: 'TB+', label: 'Data Processed Daily', icon: Database },
+  { value: 80, suffix: '%', label: 'Processing Time Reduction', icon: Zap },
+  { value: 40, suffix: '%', label: 'Automation Efficiency', icon: Bot },
+  { value: 2, suffix: '', label: 'Published Research', icon: BookOpen },
 ];
 
 const capabilities = [
@@ -36,14 +37,22 @@ export default function Impact() {
 
       {/* Metrics row */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-8">
-        {metrics.map((metric, index) => (
-          <GlassCard key={metric.label} delay={index * 0.08} className="text-center py-4">
-            <div className="text-3xl md:text-4xl font-bold gradient-text mb-1">
-              <AnimatedCounter value={metric.value} suffix={metric.suffix} />
-            </div>
-            <p className="text-muted-light text-xs md:text-sm">{metric.label}</p>
-          </GlassCard>
-        ))}
+        {metrics.map((metric, index) => {
+          const Icon = metric.icon;
+          return (
+            <GlassCard key={metric.label} delay={index * 0.08} className="text-center py-4">
+              <div className="flex justify-center mb-2">
+                <div className="p-2 rounded-lg bg-primary/10 text-primary">
+                  <Icon size={16} />
+                </div>
+              </div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-1">
+                <AnimatedCounter value={metric.value} suffix={metric.suffix} />
+              </div>
+              <p className="text-muted-light text-xs md:text-sm">{metric.label}</p>
+            </GlassCard>
+          );
+        })}
       </div>
 
       {/* Current Role */}

@@ -71,6 +71,40 @@ body {
   text-wrap: balance;
 }
 
+/* Hero grid texture */
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(139, 92, 246, 0.4) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 92, 246, 0.4) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Section alternation */
+.section-alt {
+  background: rgba(18, 18, 26, 0.5);
+}
+
+/* Card spotlight / glow on hover */
+.card-glow {
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+}
+.card-glow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 0 1px rgba(139, 92, 246, 0.3), 0 20px 40px -12px rgba(139, 92, 246, 0.2);
+  border-color: rgba(139, 92, 246, 0.35) !important;
+}
+
+/* Animated data flow line */
+@keyframes flowDown {
+  0% { stroke-dashoffset: 48; }
+  100% { stroke-dashoffset: 0; }
+}
+.flow-line {
+  stroke-dasharray: 8 8;
+  animation: flowDown 1.2s linear infinite;
+}
+
 /* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   *,

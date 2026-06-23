@@ -1,18 +1,34 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
 const navItems = [
-  { label: 'Work', href: '#featured' },
-  { label: 'Impact', href: '#impact' },
-  { label: 'Research', href: '#publications' },
-  { label: 'Library', href: '#library' },
+  { label: 'Work', href: '#featured', id: 'featured' },
+  { label: 'Impact', href: '#impact', id: 'impact' },
+  { label: 'Research', href: '#publications', id: 'publications' },
+  { label: 'Library', href: '#library', id: 'library' },
 ];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeId, setActiveId] = useState<string>('');
+
+  useEffect(() => {
+    const observers: IntersectionObserver[] = [];
+    navItems.forEach(({ id }) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const obs = new IntersectionObserver(
+        ([entry]) => { if (entry.isIntersecting) setActiveId(id); },
+        { rootMargin: '-40% 0px -50% 0px', threshold: 0 }
+      );
+      obs.observe(el);
+      observers.push(obs);
+    });
+    return () => observers.forEach((o) => o.disconnect());
+  }, []);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-white/5">
@@ -27,9 +43,18 @@ export default function Navbar() {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-sm text-muted-light hover:text-white transition-colors"
+                className={`relative text-sm transition-colors pb-0.5 ${
+                  activeId === item.id ? 'text-white' : 'text-muted-light hover:text-white'
+                }`}
               >
                 {item.label}
+                {activeId === item.id && (
+                  <motion.span
+                    layoutId="nav-underline"
+                    className="absolute bottom-0 left-0 right-0 h-px bg-primary"
+                    transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                  />
+                )}
               </a>
             ))}
             <a

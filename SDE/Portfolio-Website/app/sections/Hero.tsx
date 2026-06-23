@@ -6,11 +6,21 @@ import { ArrowDown, Github, Linkedin, FileText, Globe } from 'lucide-react';
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-20">
-      {/* Animated gradient background */}
+      {/* Background layers */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/10 animate-gradient-x" />
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[128px] animate-float" />
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/10 rounded-full blur-[96px] animate-float" style={{ animationDelay: '-3s' }} />
+        {/* Grid texture */}
+        <div className="absolute inset-0 hero-grid opacity-[0.035]" />
+        {/* Radial vignette */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-10%,rgba(139,92,246,0.15),transparent)]" />
+        {/* Floating blurs */}
+        <div className="absolute top-1/4 left-1/5 w-[520px] h-[520px] bg-primary/15 rounded-full blur-[140px]" />
+        <div className="absolute bottom-1/4 right-1/5 w-[380px] h-[380px] bg-accent/8 rounded-full blur-[110px]" />
+        {/* Subtle horizontal data-flow lines */}
+        <svg className="absolute inset-0 w-full h-full opacity-[0.04]" xmlns="http://www.w3.org/2000/svg">
+          {[15, 30, 45, 60, 75].map((y) => (
+            <line key={y} x1="0" y1={`${y}%`} x2="100%" y2={`${y}%`} stroke="#8b5cf6" strokeWidth="0.5" strokeDasharray="4 12" />
+          ))}
+        </svg>
       </div>
 
       <div className="max-w-5xl mx-auto text-center">

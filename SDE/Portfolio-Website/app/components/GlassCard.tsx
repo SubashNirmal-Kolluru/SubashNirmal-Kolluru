@@ -24,7 +24,7 @@ export default function GlassCard({
       transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}
       className={`
         glass rounded-2xl p-6 md:p-8
-        ${hover ? 'transition-all duration-300 hover:bg-surface-light hover:scale-[1.01] hover:shadow-2xl hover:shadow-primary/10' : ''}
+        ${hover ? 'card-glow cursor-default' : ''}
         ${className}
       `}
     >

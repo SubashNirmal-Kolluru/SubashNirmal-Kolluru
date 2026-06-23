@@ -1,30 +1,35 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { FlaskConical, BarChart2, GraduationCap, Cloud } from 'lucide-react';
 import Section from '../components/Section';
 
 const cards = [
   {
     period: '2018–2019',
     title: 'Research',
+    icon: FlaskConical,
     tags: ['Anomaly Detection', 'Fault Diagnosis', 'One-Class SVM'],
     org: 'Shell · Published Research',
   },
   {
     period: '2019–2021',
     title: 'Analytics & ML',
+    icon: BarChart2,
     tags: ['Forecasting', 'Optimization', 'Data Analytics'],
     org: 'Tiger Analytics',
   },
   {
     period: '2022–2023',
     title: 'Graduate Studies',
+    icon: GraduationCap,
     tags: ['Business Analytics', 'Databases', 'Software Engineering'],
     org: 'UT Dallas · MS Computer Science',
   },
   {
     period: '2024–Present',
     title: 'Cloud Data Engineering',
+    icon: Cloud,
     tags: ['AWS', 'Snowflake', 'Platform Engineering', 'CarmaSure'],
     org: 'CSAA Insurance Group',
   },
@@ -48,9 +53,12 @@ export default function Journey() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-50px' }}
             transition={{ duration: 0.5, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="glass rounded-2xl p-5 flex flex-col gap-3"
+            className="glass rounded-2xl p-5 flex flex-col gap-3 card-glow"
           >
             <div>
+              <div className="p-2 rounded-lg bg-primary/10 text-primary w-fit mb-3">
+                <card.icon size={16} />
+              </div>
               <span className="text-accent text-xs font-semibold tracking-wide">{card.period}</span>
               <h3 className="text-lg font-bold text-white mt-1">{card.title}</h3>
               <p className="text-muted text-xs mt-1">{card.org}</p>
