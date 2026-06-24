@@ -6,28 +6,39 @@ import Section from '../components/Section';
 
 function DataEngineeringVisual() {
   const layers = [
-    { label: 'Sources', color: '#6b7280' },
-    { label: 'AWS Glue', color: '#8b5cf6' },
-    { label: 'EMR', color: '#8b5cf6' },
-    { label: 'S3', color: '#22d3ee' },
-    { label: 'Snowflake', color: '#8b5cf6' },
-    { label: 'Analytics', color: '#22d3ee' },
+    { label: 'Sources', sublabel: 'DBs · APIs · Streams', color: '#6b7280', accent: false },
+    { label: 'AWS Glue', sublabel: 'ETL · Catalog', color: '#8b5cf6', accent: true },
+    { label: 'EMR', sublabel: 'PySpark · Scale', color: '#8b5cf6', accent: true },
+    { label: 'S3', sublabel: 'Raw · Curated', color: '#22d3ee', accent: false },
+    { label: 'Snowflake', sublabel: 'Warehouse', color: '#8b5cf6', accent: true },
+    { label: 'Analytics', sublabel: 'BI · APIs', color: '#22d3ee', accent: false },
   ];
   return (
-    <div className="w-full bg-black/20 rounded-xl p-4 flex items-center justify-between gap-1 overflow-hidden">
-      {layers.map((l, i) => (
-        <div key={l.label} className="flex items-center gap-1">
-          <div className="flex flex-col items-center gap-0.5">
-            <div className="w-2 h-2 rounded-full" style={{ backgroundColor: l.color }} />
-            <span className="text-[9px] text-muted-light whitespace-nowrap">{l.label}</span>
+    <div className="w-full bg-black/25 rounded-xl p-5">
+      <div className="flex items-center justify-between gap-1 overflow-hidden">
+        {layers.map((l, i) => (
+          <div key={l.label} className="flex items-center gap-1 min-w-0">
+            <div className="flex flex-col items-center gap-1">
+              <div className={`w-8 h-8 rounded-lg border flex items-center justify-center ${
+                l.accent ? 'border-primary/40 bg-primary/10' : 'border-white/10 bg-white/5'
+              }`}>
+                <div className="w-2 h-2 rounded-full" style={{ backgroundColor: l.color }} />
+              </div>
+              <span className="text-[9px] text-white font-medium whitespace-nowrap">{l.label}</span>
+              <span className="text-[8px] text-muted whitespace-nowrap hidden sm:block">{l.sublabel}</span>
+            </div>
+            {i < layers.length - 1 && (
+              <svg width="20" height="8" viewBox="0 0 20 8" className="shrink-0 mb-4">
+                <path d="M0 4 L16 4 M13 1 L16 4 L13 7" stroke={l.color} strokeWidth="1" fill="none" strokeOpacity="0.5" />
+              </svg>
+            )}
           </div>
-          {i < layers.length - 1 && (
-            <svg width="16" height="8" viewBox="0 0 16 8">
-              <path d="M0 4 L12 4 M9 1 L12 4 L9 7" stroke={l.color} strokeWidth="1" fill="none" strokeOpacity="0.6" />
-            </svg>
-          )}
-        </div>
-      ))}
+        ))}
+      </div>
+      <div className="mt-3 flex items-center gap-2">
+        <div className="flex-1 h-0.5 rounded-full bg-gradient-to-r from-primary/40 via-accent/30 to-transparent" />
+        <span className="text-[9px] text-muted">3TB+ daily · CDC · Medallion Architecture</span>
+      </div>
     </div>
   );
 }
@@ -122,6 +133,7 @@ const projects = [
     cta: 'Explore Architecture',
     href: '#architecture',
     size: 'large',
+    tier: 'primary',
     visual: DataEngineeringVisual,
   },
   {
@@ -132,6 +144,7 @@ const projects = [
     cta: 'View Live Product',
     href: 'https://carmasurev2.netlify.app/',
     size: 'medium',
+    tier: 'primary',
     visual: CarmaSureVisual,
   },
   {
@@ -142,6 +155,7 @@ const projects = [
     cta: 'Read Research',
     href: '#publications',
     size: 'medium',
+    tier: 'secondary',
     visual: SVMVisual,
   },
   {
@@ -152,6 +166,7 @@ const projects = [
     cta: 'View Project',
     href: 'https://github.com/SubashNirmal-Kolluru/SubashNirmal-Kolluru/tree/SubashNirmalKolluru/SDE/SimpleDB-DatabaseEngineImplementation',
     size: 'medium',
+    tier: 'secondary',
     visual: SimpleDBVisual,
   },
   {
@@ -162,6 +177,7 @@ const projects = [
     cta: 'View Gameplay',
     href: 'https://www.youtube.com/watch?v=Ic0E412q_Ms',
     size: 'medium',
+    tier: 'secondary',
     visual: VRVisual,
   },
 ];
@@ -169,11 +185,9 @@ const projects = [
 export default function FeaturedWork() {
   return (
     <Section id="featured">
-      <div className="mb-12 md:mb-16">
-        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Featured Work</p>
-        <h2 className="text-3xl md:text-5xl font-bold text-white text-balance">
-          Projects worth highlighting
-        </h2>
+      <div className="mb-8">
+        <p className="text-accent text-xs font-semibold uppercase tracking-widest mb-2">Featured Work</p>
+        <h2 className="text-2xl md:text-4xl font-bold text-white text-balance">Projects worth highlighting</h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
@@ -186,24 +200,38 @@ export default function FeaturedWork() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-              className={`group relative glass rounded-2xl overflow-hidden card-glow ${
+              className={`group relative rounded-2xl overflow-hidden card-glow ${
                 project.size === 'large' ? 'md:col-span-2' : ''
+              } ${
+                project.title === 'Data Engineering at Scale'
+                  ? 'glass border border-primary/30 shadow-xl shadow-primary/10 ring-1 ring-primary/10'
+                  : project.tier === 'primary'
+                  ? 'glass border border-primary/20 shadow-lg shadow-primary/5'
+                  : 'bg-surface/60 border border-white/5'
               }`}
             >
               {/* Visual preview */}
-              <div className="px-5 pt-5 pb-2">
+              <div className={`px-5 pt-5 pb-2 ${
+                project.title === 'Data Engineering at Scale' ? 'pb-3' : ''
+              }`}>
                 <Visual />
               </div>
 
               {/* Card content */}
               <div className="p-5 pt-3 flex flex-col gap-3">
                 <div className="flex items-start justify-between gap-4">
-                  <span className="text-xs font-medium uppercase tracking-wider text-accent">
+                  <span className={`text-xs font-medium uppercase tracking-wider ${
+                    project.title === 'Data Engineering at Scale' ? 'text-primary' : 'text-accent'
+                  }`}>
                     {project.tag}
                   </span>
                   <ArrowUpRight size={18} className="text-muted-light group-hover:text-white transition-colors shrink-0" />
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold text-white">{project.title}</h3>
+                <h3 className={`font-bold text-white ${
+                  project.title === 'Data Engineering at Scale'
+                    ? 'text-2xl md:text-3xl'
+                    : 'text-xl md:text-2xl'
+                }`}>{project.title}</h3>
                 <p className="text-muted-light text-sm leading-relaxed">{project.description}</p>
                 <div className="flex flex-wrap gap-1.5">
                   {project.highlights.map((h) => (

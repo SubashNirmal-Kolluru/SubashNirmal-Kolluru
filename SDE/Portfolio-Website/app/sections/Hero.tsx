@@ -5,7 +5,7 @@ import { ArrowDown, Github, Linkedin, FileText, Globe } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-20">
+    <section className="relative min-h-[75vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-20 pb-8">
       {/* Background layers */}
       <div className="absolute inset-0 -z-10">
         {/* Grid texture */}
@@ -29,17 +29,20 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="text-accent text-sm md:text-base font-medium tracking-wide uppercase mb-3">
+          <p className="text-accent text-sm font-medium tracking-wide uppercase mb-2">
             Data Engineer
           </p>
-          <p className="text-muted text-sm md:text-base tracking-wide mb-6">
+          <p className="text-muted text-xs tracking-wide mb-4">
             AWS • Snowflake • Analytics Engineering
           </p>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6 text-balance">
+          <p className="text-muted/80 text-[10px] tracking-wide mb-4">
+            Dual Degree (B.Tech + M.Tech), IIT Kharagpur · MS Computer Science, UT Dallas
+          </p>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-4 text-balance">
             Subash Nirmal{' '}
             <span className="gradient-text">Kolluru</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-light max-w-2xl mx-auto mb-10 leading-relaxed text-balance">
+          <p className="text-base md:text-lg text-muted-light max-w-2xl mx-auto mb-7 leading-relaxed text-balance">
             Building production-scale data platforms,{' '}
             metadata-driven automation frameworks,{' '}
             and AI-enabled products.
@@ -50,7 +53,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-5"
         >
           <a
             href="#featured"
@@ -84,6 +87,30 @@ export default function Hero() {
             <Github size={18} />
             GitHub
           </a>
+        </motion.div>
+
+        {/* Achievement badges */}
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
+          className="flex flex-wrap items-center justify-center gap-2"
+        >
+          {[
+            { value: '3TB+', label: 'Daily Processing' },
+            { value: '80%', label: 'Optimization' },
+            { value: '40%', label: 'Automation Gain' },
+            { value: '2', label: 'Publications' },
+            { value: '10+', label: 'Projects' },
+          ].map((badge) => (
+            <span
+              key={badge.label}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full glass text-xs font-medium border border-white/10 hover:border-primary/40 hover:text-white transition-colors cursor-default"
+            >
+              <span className="text-accent font-semibold">{badge.value}</span>
+              <span className="text-muted-light">{badge.label}</span>
+            </span>
+          ))}
         </motion.div>
       </div>
 

@@ -1,6 +1,8 @@
+'use client';
+
 import { Database, Zap, Bot, BookOpen } from 'lucide-react';
+import { motion } from 'framer-motion';
 import Section from '../components/Section';
-import GlassCard from '../components/GlassCard';
 import AnimatedCounter from '../components/AnimatedCounter';
 
 const metrics = [
@@ -27,58 +29,67 @@ const capabilities = [
 
 export default function Impact() {
   return (
-    <Section id="impact" className="bg-surface/30">
-      <div className="mb-8">
-        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Current Impact</p>
-        <h2 className="text-3xl md:text-4xl font-bold text-white">
-          Metrics that matter
-        </h2>
+    <Section id="impact" className="section-alt">
+      <div className="mb-6">
+        <p className="text-accent text-xs font-semibold uppercase tracking-widest mb-2">Current Impact</p>
+        <h2 className="text-2xl md:text-3xl font-bold text-white">Metrics that matter</h2>
       </div>
 
-      {/* Metrics row */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-8">
-        {metrics.map((metric, index) => {
-          const Icon = metric.icon;
-          return (
-            <GlassCard key={metric.label} delay={index * 0.08} className="text-center py-4">
-              <div className="flex justify-center mb-2">
-                <div className="p-2 rounded-lg bg-primary/10 text-primary">
-                  <Icon size={16} />
+      {/* Compact horizontal stats strip */}
+      <div className="glass rounded-2xl overflow-hidden mb-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-white/5">
+          {metrics.map((metric, index) => {
+            const Icon = metric.icon;
+            return (
+              <motion.div
+                key={metric.label}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: index * 0.07 }}
+                className="flex items-center gap-3 px-5 py-4 hover:bg-white/[0.03] transition-colors group"
+              >
+                <div className="p-1.5 rounded-md bg-accent/10 text-accent shrink-0 group-hover:bg-accent/15 transition-colors">
+                  <Icon size={14} />
+                </div>
+                <div>
+                  <div className="text-3xl md:text-4xl font-bold text-white leading-none">
+                    <AnimatedCounter value={metric.value} suffix={metric.suffix} />
+                  </div>
+                  <p className="text-muted text-[11px] mt-0.5 leading-tight">{metric.label}</p>
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Merged responsibilities card */}
+      <div className="glass rounded-2xl p-5 border border-white/8">
+        <div className="flex flex-col sm:flex-row sm:items-start gap-5">
+          {/* Role identity */}
+          <div className="shrink-0 sm:w-40 sm:border-r border-white/8 sm:pr-5">
+            <p className="text-accent text-[10px] font-semibold uppercase tracking-widest mb-2">Current Role</p>
+            <p className="text-white text-sm font-bold leading-snug">Data Engineer</p>
+            <p className="text-muted text-xs mt-1">CSAA Insurance Group</p>
+            <p className="text-muted text-[10px] mt-2 leading-relaxed">AWS • Snowflake • CDC • dbt</p>
+          </div>
+          {/* Capability groups */}
+          <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {capabilities.map((cap) => (
+              <div key={cap.title}>
+                <h4 className="text-[10px] font-semibold text-muted uppercase tracking-widest mb-2">{cap.title}</h4>
+                <div className="flex flex-wrap gap-1.5">
+                  {cap.chips.map((chip) => (
+                    <span key={chip} className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-primary/10 text-primary border border-primary/20">
+                      {chip}
+                    </span>
+                  ))}
                 </div>
               </div>
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-1">
-                <AnimatedCounter value={metric.value} suffix={metric.suffix} />
-              </div>
-              <p className="text-muted-light text-xs md:text-sm">{metric.label}</p>
-            </GlassCard>
-          );
-        })}
-      </div>
-
-      {/* Current Role */}
-      <div className="glass rounded-2xl p-6 mb-6">
-        <p className="text-accent text-xs font-medium uppercase tracking-wider mb-2">Current Role</p>
-        <h3 className="text-lg font-semibold text-white mb-2">Data Engineer @ CSAA Insurance Group</h3>
-        <p className="text-muted-light text-sm leading-relaxed">
-          Designing analytics-ready data platforms across AWS and Snowflake — building CDC ingestion frameworks,
-          metadata-driven automation, and enterprise analytics solutions.
-        </p>
-      </div>
-
-      {/* Capability cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
-        {capabilities.map((cap, i) => (
-          <div key={cap.title} className="glass rounded-xl p-5">
-            <h4 className="text-sm font-semibold text-white mb-3">{cap.title}</h4>
-            <div className="flex flex-wrap gap-2">
-              {cap.chips.map((chip) => (
-                <span key={chip} className="px-2.5 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
-                  {chip}
-                </span>
-              ))}
-            </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </Section>
   );

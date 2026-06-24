@@ -15,13 +15,21 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Navbar />
       <Hero />
+      <hr className="section-divider" />
       <Impact />
+      <hr className="section-divider" />
       <FeaturedWork />
+      <hr className="section-divider" />
       <ArchitectureShowcase />
+      <hr className="section-divider" />
       <Journey />
+      <hr className="section-divider" />
       <Publications />
+      <hr className="section-divider" />
       <Expertise />
+      <hr className="section-divider" />
       <Archive />
+      <hr className="section-divider" />
       <Future />
       <Footer />
     </main>

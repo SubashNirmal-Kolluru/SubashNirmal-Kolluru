@@ -69,10 +69,8 @@ export default function ArchitectureShowcase() {
   return (
     <Section id="architecture">
       <div className="mb-8">
-        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Architecture Showcase</p>
-        <h2 className="text-3xl md:text-4xl font-bold text-white">
-          Cloud data platform patterns
-        </h2>
+        <p className="text-accent text-xs font-semibold uppercase tracking-widest mb-2">Architecture Showcase</p>
+        <h2 className="text-2xl md:text-4xl font-bold text-white">Cloud data platform patterns</h2>
         <p className="text-muted-light mt-3 max-w-2xl text-sm leading-relaxed">
           Production-scale architecture patterns for ingestion, transformation, storage, and analytics-ready delivery.
           Hover each node to explore the layer.

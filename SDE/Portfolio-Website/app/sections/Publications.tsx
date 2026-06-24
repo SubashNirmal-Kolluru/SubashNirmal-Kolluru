@@ -22,44 +22,40 @@ const publications = [
 export default function Publications() {
   return (
     <Section id="publications">
-      <div className="mb-8">
-        <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20 mb-4">Published Research</span>
-        <p className="text-accent text-sm font-medium uppercase tracking-wide mb-3">Publications</p>
-        <h2 className="text-3xl md:text-4xl font-bold text-white">
-          Research contributions
-        </h2>
+      <div className="mb-6">
+        <div className="flex items-center gap-3 mb-3">
+          <span className="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-primary/10 text-primary border border-primary/20">Published Research</span>
+          <p className="text-accent text-xs font-semibold uppercase tracking-widest">Publications</p>
+        </div>
+        <h2 className="text-2xl md:text-3xl font-bold text-white">Research contributions</h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {publications.map((pub, index) => (
           <motion.a
             key={pub.title}
             href={pub.href}
             target="_blank"
             rel="noopener noreferrer"
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="group glass rounded-2xl p-6 md:p-8 transition-all duration-300 hover:bg-surface-light hover:scale-[1.01]"
+            transition={{ duration: 0.5, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
+            className="group glass rounded-xl p-5 card-glow flex flex-col gap-3"
           >
-            <div className="flex items-start justify-between gap-4 mb-4">
-              <div className="p-3 rounded-xl bg-primary/10 text-primary">
-                <BookOpen size={24} />
+            <div className="flex items-start justify-between gap-4">
+              <div className="p-2 rounded-lg bg-primary/10 text-primary shrink-0">
+                <BookOpen size={18} />
               </div>
-              <ArrowUpRight
-                size={20}
-                className="text-muted-light group-hover:text-white transition-colors"
-              />
+              <ArrowUpRight size={16} className="text-muted group-hover:text-white transition-colors shrink-0 mt-1" />
             </div>
-
-            <h3 className="text-xl md:text-2xl font-bold text-white mb-3 leading-tight">
-              {pub.title}
-            </h3>
-            <p className="text-muted-light mb-4 leading-relaxed">
-              {pub.summary}
-            </p>
-            <p className="text-sm font-semibold text-accent">{pub.venue}</p>
+            <div>
+              <h3 className="text-base font-semibold text-white leading-snug mb-1.5">
+                {pub.title}
+              </h3>
+              <p className="text-muted-light text-sm leading-relaxed">{pub.summary}</p>
+            </div>
+            <p className="text-xs font-semibold text-accent mt-auto">{pub.venue}</p>
           </motion.a>
         ))}
       </div>

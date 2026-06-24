@@ -44,15 +44,11 @@ const featuredProjects = [
 ];
 
 const milestones = [
-  { year: '2018', title: 'Machine Learning Research', subtitle: 'Shell' },
-  { year: '2019', title: 'Optimization & Analytics', subtitle: 'Tiger Analytics' },
-  { year: '2020', title: 'Deep Learning & Forecasting', subtitle: '' },
-  { year: '2021', title: 'Advanced Machine Learning Projects', subtitle: '' },
-  { year: '2022', title: 'MS Business Analytics', subtitle: 'UT Dallas' },
-  { year: '2023', title: 'Software Engineering & Databases', subtitle: '' },
-  { year: '2024', title: 'AWS Data Engineering', subtitle: 'CSAA Insurance Group' },
-  { year: '2025', title: 'CarmaSure Product Development', subtitle: '' },
-  { year: '2026', title: 'AI-Powered Data Engineering', subtitle: '' },
+  { year: '2014–2019', title: 'IIT Kharagpur', subtitle: 'Dual Degree (B.Tech + M.Tech)' },
+  { year: '2018–2019', title: 'Shell India', subtitle: 'Research Engineer Intern · Published Research' },
+  { year: '2019–2021', title: 'Tiger Analytics', subtitle: 'Analytics & Machine Learning' },
+  { year: '2022–2024', title: 'University of Texas at Dallas', subtitle: 'MS Computer Science' },
+  { year: '2024–Present', title: 'CSAA Insurance Group', subtitle: 'Data Engineering' },
 ];
 
 const publications = [
