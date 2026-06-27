@@ -41,8 +41,8 @@ export default function Footer() {
               <a href="/resume.pdf" className="inline-flex items-center gap-2 text-sm text-muted-light hover:text-white transition-colors">
                 <FileText size={14} /> Resume
               </a>
-              <a href="mailto:subash.nirmal.kolluru@gmail.com" className="inline-flex items-center gap-2 text-sm text-muted-light hover:text-white transition-colors">
-                <Mail size={14} /> subash.nirmal.kolluru@gmail.com
+              <a href="mailto:subashnirmalkolluru@gmail.com" className="inline-flex items-center gap-2 text-sm text-muted-light hover:text-white transition-colors">
+                <Mail size={14} /> subashnirmalkolluru@gmail.com
               </a>
             </div>
           </div>
