@@ -43,6 +43,7 @@ function DataEngineeringVisual() {
   );
 }
 
+/* CarmaSure section removed
 function CarmaSureVisual() {
   return (
     <div className="w-full bg-black/20 rounded-xl p-4 flex gap-3 items-center">
@@ -74,6 +75,7 @@ function CarmaSureVisual() {
     </div>
   );
 }
+*/
 
 function SVMVisual() {
   const points = [[20,60],[35,40],[50,65],[65,45],[80,55],[30,75],[55,30],[70,70],[45,50]];
@@ -136,6 +138,7 @@ const projects = [
     tier: 'primary',
     visual: DataEngineeringVisual,
   },
+  /* CarmaSure project removed
   {
     tag: 'Product Development',
     title: 'CarmaSure',
@@ -147,6 +150,7 @@ const projects = [
     tier: 'primary',
     visual: CarmaSureVisual,
   },
+  */
   {
     tag: 'Research',
     title: 'One-Class SVM Research',

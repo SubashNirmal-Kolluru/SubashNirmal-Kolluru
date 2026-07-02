@@ -1,4 +1,5 @@
 const featuredProjects = [
+  /* CarmaSure project removed
   {
     id: 'carmasure',
     tag: 'Product Development',
@@ -9,6 +10,7 @@ const featuredProjects = [
     href: '#carmasure',
     large: true,
   },
+  */
   {
     tag: 'Professional Experience',
     title: 'Data Engineering at Scale',
@@ -144,7 +146,7 @@ const futureItems = [
   { icon: 'message', title: 'AI Assistant', subtitle: 'Ask About Subash', description: 'A conversational interface to explore experience, projects, and skills.' },
   { icon: 'book', title: 'Blog', subtitle: 'Technical Articles', description: 'Deep dives into data engineering, ML, and product development.' },
   { icon: 'cloud', title: 'AWS Architecture', subtitle: 'Interactive Showcase', description: 'Explore production data pipelines and cloud architecture diagrams.' },
-  { icon: 'play', title: 'CarmaSure Demo', subtitle: 'Live Integration', description: 'Interactive product demo and case study walkthrough.' },
+  // { icon: 'play', title: 'CarmaSure Demo', subtitle: 'Live Integration', description: 'Interactive product demo and case study walkthrough.' },
 ];
 
 const iconSvgs = {

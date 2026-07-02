@@ -1,10 +1,10 @@
-import { Layers, Cpu, Smartphone } from 'lucide-react';
+import { Layers, Cpu } from 'lucide-react';
 import Section from '../components/Section';
 
 const items = [
   { icon: Layers, title: 'Data Engineering Patterns' },
   { icon: Cpu, title: 'AI-Augmented Engineering' },
-  { icon: Smartphone, title: 'CarmaSure Evolution' },
+  // { icon: Smartphone, title: 'CarmaSure Evolution' },
 ];
 
 export default function Future() {

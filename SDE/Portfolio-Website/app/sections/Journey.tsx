@@ -37,7 +37,7 @@ const cards = [
     period: '2024–Present',
     title: 'CSAA Insurance Group',
     icon: Cloud,
-    tags: ['AWS', 'Snowflake', 'Platform Engineering', 'CarmaSure'],
+    tags: ['AWS', 'Snowflake', 'Platform Engineering'],
     org: 'Data Engineering',
   },
 ];
